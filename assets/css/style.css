@@ -1,0 +1,19 @@
+* {
+  color: #fff !important;
+}
+
+.dropdown-item{
+    color: #000!important   ;
+}
+
+.nav-bg {
+  background: linear-gradient(90deg, #120d31 0%, #6ddccf 100%);
+}
+
+@media (max-width:  1600px) {
+                          
+}
+
+.ml-nav-lg {
+    margin-left: 90px;
+  }     
