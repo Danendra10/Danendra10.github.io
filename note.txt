@@ -1,1 +1,1 @@
-bagian about team belom responsive
+untuk bagian tim fix ada di ourteam.html
