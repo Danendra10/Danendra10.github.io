@@ -661,9 +661,8 @@ body {
   margin: 0 20px;
 }
 
-.strip {
-  /* border: 1px solid #707070; */
-  width: 80%;
+.header-publication .strip {
+  width: 85%;
 }
 
 .header-publication {
@@ -713,11 +712,14 @@ body {
     position: absolute;
     left: 62.4%;
     right: 14.48%;
-    top: 145.03%;
+    top: 140.03%;
     bottom: 7.47%;
     /* display: flex; */
 
     transform: scale(1);
+  }
+  .header-publication .strip {
+    width: 65%;
   }
 }
 .header-publication-links .strip1 {
