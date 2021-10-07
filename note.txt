@@ -1,1 +1,2 @@
 untuk bagian tim fix ada di ourteam.html
+bagian fix publications di publication.html
