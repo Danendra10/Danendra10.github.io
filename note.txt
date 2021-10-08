@@ -1,2 +1,146 @@
 untuk bagian tim fix ada di ourteam.html
 bagian fix publications di publication.html
+<div class="col-lg-4 d-flex flex-column">
+                    <div class="d-lg-flex flex-md-column flex-sm-column">
+                        <div class="media justify-sm-content-center align-items-center d-inline-flex m-4 my-4">
+                            <img src="assets/img/contactUs/loc.png" alt="">
+                        </div>
+                        <div class="media contact-info flex-md-row justify-content-sm-center align-items-sm-center text-sm-center d-inline-flex m-4 my-4">
+                            <div class="media-body">
+                                <h3>Address</h3>
+                                <p>Laboratorium Workshop Lantai II<br>Sekretariat Robotika ITS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-lg-flex flex-md-column flex-sm-column">
+                        <div class="media justify-content-center align-items-center d-inline-flex m-4 my-4">
+                            <img src="assets/img/contactUs/phone.png" alt="">
+                        </div>
+                        <div class="media contact-info">
+                            <div class="media-body">
+                                <h3><a>Phone number</a></h3>
+                                <p>+62 822-3010-4565 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-lg-flex flex-md-column flex-sm-column">
+                        <div class="media justify-content-center align-items-center d-inline-flex m-4 my-4">
+                            <img src="assets/img/contactUs/gmail.png" alt="">
+                        </div>
+                        <div class="media contact-info">
+                            <div class="media-body">
+                                <h3><a>Email</a></h3>
+                                <p>iris.krsbi@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-lg-flex flex-md-column flex-sm-column">
+                        <div class="media justify-content-center align-items-center d-inline-flex m-4 my-4">
+                            <img src="assets/img/contactUs/insta.png" alt="">
+                        </div>
+                        <div class="media contact-info">
+                            <div class="media-body">
+                                <h3><a>Instagram</a></h3>
+                                <p>@iris.itsrobotic</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+<div class="col-lg-4 d-flex flex-column">
+                    <div class="d-flex">
+                        <div class="media justify-content-center align-items-center d-inline-flex m-4 my-4">
+                            <img src="assets/img/contactUs/loc.png" alt="">
+                        </div>
+                        <div class="media contact-info d-flex flex-row">
+                            <div class="media-body">
+                                <h3>Address</h3>
+                                <p>Laboratorium Workshop Lantai II<br>Sekretariat Robotika ITS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="media justify-content-center align-items-center d-inline-flex m-4 my-4">
+                            <img src="assets/img/contactUs/phone.png" alt="">
+                        </div>
+                        <div class="media contact-info">
+                            <div class="media-body">
+                                <h3><a>Phone number</a></h3>
+                                <p>+62 822-3010-4565 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="media justify-content-center align-items-center d-inline-flex m-4 my-4">
+                            <img src="assets/img/contactUs/gmail.png" alt="">
+                        </div>
+                        <div class="media contact-info">
+                            <div class="media-body">
+                                <h3><a>Email</a></h3>
+                                <p>iris.krsbi@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="media justify-content-center align-items-center d-inline-flex m-4 my-4">
+                            <img src="assets/img/contactUs/insta.png" alt="">
+                        </div>
+                        <div class="media contact-info">
+                            <div class="media-body">
+                                <h3><a>Instagram</a></h3>
+                                <p>@iris.itsrobotic</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+<div class="col-lg-4 d-flex flex-column">
+                    <div class="d-flex flex-md-column flex-sm-column">
+                        <div class="media justify-sm-content-center align-items-center d-inline-flex m-4 my-4">
+                            <img src="assets/img/contactUs/loc.png" alt="">
+                        </div>
+                        <div
+                            class="media contact-info d-flex">
+                            <div class="media-body">
+                                <h3>Address</h3>
+                                <p>Laboratorium Workshop Lantai II<br>Sekretariat Robotika ITS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-md-column flex-sm-column">
+                        <div class="media justify-sm-content-center align-items-center d-inline-flex m-4 my-4">
+                            <img src="assets/img/contactUs/phone.png" alt="">
+                        </div>
+                        <div class="media contact-info">
+                            <div class="media-body">
+                                <h3><a>Phone number</a></h3>
+                                <p>+62 822-3010-4565 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-md-column flex-sm-column">
+                        <div class="media justify-sm-content-center align-items-center d-inline-flex m-4 my-4">
+                            <img src="assets/img/contactUs/gmail.png" alt="">
+                        </div>
+                        <div class="media contact-info">
+                            <div class="media-body">
+                                <h3><a>Email</a></h3>
+                                <p>iris.krsbi@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-md-column flex-sm-column">
+                        <div class="media justify-sm-content-center align-items-center d-inline-flex m-4 my-4">
+                            <img src="assets/img/contactUs/insta.png" alt="">
+                        </div>
+                        <div class="media contact-info">
+                            <div class="media-body">
+                                <h3><a>Instagram</a></h3>
+                                <p>@iris.itsrobotic</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
