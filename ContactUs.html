@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>IRIS ITS || Publications</title>
+</head>
+
+<body>
+    <section class="section-margin">
+        <div class="container">
+            <div class="d-none d-sm-block mb-5 pb-4">
+                <div id="map" style="height: 480px;"></div>
+                <script>
+                    function initMap() {
+                        var uluru = { lat: -7.277379, lng: 112.798304 };
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 17,
+                            center: uluru,
+                        });
+                        var contentString = '<div>' +
+                            '<div>' +
+                            '</div>' +
+                            '<h5>Sekretariat Robotika ITS</h5>' +
+                            '<div style="font-size:16px">' +
+                            '<p>Jl. Teknik Kimia, Kampus ITS<br>' +
+                            'Sukolilo, Surabaya</p>' +
+                            '</div>' +
+                            '</div>';
+
+                        var infowindow = new google.maps.InfoWindow({
+                            content: contentString,
+                        });
+
+                        var marker = new google.maps.Marker({
+                            position: uluru,
+                            map: map,
+                            title: 'Robotika ITS'
+                        });
+                        infowindow.open(map, marker);
+                        marker.addListener('click', function () {
+                            infowindow.open(map, marker);
+                        });
+                    }
+
+                </script>
+                <script
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAc6pcTINhSJDXqrJ_09vrYkTZTKX0_y5c&amp;callback=initMap"></script>
+
+            </div>
+
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="contact-us-title">Contact Us</h2>
+                </div>
+                <div class="col-lg-8">
+                    <form class="form-contact contact_form" id="sendMessage" action="https://iris.its.ac.id/contact"
+                        method="POST" id="contactForm">
+                        <!-- <input type="hidden" name="_token" value="fuXQYafjK1Lomk5vZ2uwpkkLrm25jwKQ65qV3fzk"> -->
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <input class="form-control" name="name" id="name" type="text"
+                                        placeholder="Enter your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" name="email" id="email" type="text"
+                                        placeholder="Enter your email address" required>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" name="name" id="name" type="text"
+                                        placeholder="Enter subject" required>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-group h-100">
+                                    <input class="form-control" name="name" id="name" type="text"
+                                        placeholder="Enter message" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <button type="button" class="button button-contactForm confirm">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column">
+                    <div class="media contact-info d-inline">
+                        <img src="assets/img/contactUs/loc.png" alt="">
+                        <div class="media-body">
+                            <h3>Address</h3>
+                            <p>Laboratorium Workshop Lantai II<br>Sekretariat Robotika ITS</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <img src="assets/img/contactUs/phone.png" alt="">
+                        <div class="media-body">
+                            <h3><a>Phone number</a></h3>
+                            <p>+62 822-3010-4565 </p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <img src="assets/img/contactUs/gmail.png" alt="">
+                        <div class="media-body">
+                            <h3><a>Email</a></h3>
+                            <p>iris.krsbi@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
