@@ -17,9 +17,9 @@
     <title>IRIS ITS || Our Team</title>
 </head>
 
-<body>
+<body onload="rightAnimate(); topAnimate(); leftAnimate(); spin(); spinStick(); fade()">
     <div class="container-fluid headContent">
-        <div class="d-flex flex-row top-team align-items-center">
+        <div class="d-flex flex-row top-team align-items-center toRight">
             <img src="assets/img/team/strip1.png" alt="" class="strip1">
             <img src="assets/img/team/its.png" alt="" class="header-team-elem">
             <img src="assets/img/team/robotic.png" alt="" class="header-team-elem">
@@ -28,16 +28,16 @@
 
         <div class="row team-head-text d-flex align-items-center">
             <div class="col-lg-4">
-                <img src="assets/img/team/round.png" alt="" class="round-team">
-                <img src="assets/img/team/prog.png" alt="" class="prog-team">
-                <img src="assets/img/team/star.png" alt="" class="star-team">
-                <img src="assets/img/team/el.png" alt="" class="el-team">
-                <img src="assets/img/team/mech.png" alt="" class="mech-team">
-                <img src="assets/img/team/ofc.png" alt="" class="ofc-team">
+                <img src="assets/img/team/round.png" alt="" class="round-team spinStick">
+                <img src="assets/img/team/prog.png" alt="" class="prog-team fade">
+                <img src="assets/img/team/star.png" alt="" class="star-team spinStick">
+                <img src="assets/img/team/el.png" alt="" class="el-team fade">
+                <img src="assets/img/team/mech.png" alt="" class="mech-team fade">
+                <img src="assets/img/team/ofc.png" alt="" class="ofc-team fade">
             </div>
             <div class="col-lg-8">
                 <h1 style="margin: 200px auto">Get To Know The Team</h1>
-                <div class="row">
+                <div class="row toLeft">
                     <div class="col-lg-11 w-content">
                         <h3 class="d-flex justify-content-end align-items-center">behind the wheel of IRIS</h3>
                         <img src="assets/img/team/strip2.png" alt="" class="strip2 w-100">
@@ -57,7 +57,7 @@
             <div class="strip-team2"></div>
         </div>
 
-        <div class="leader-content">
+        <div class="leader-content revealOnScroll">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
                     <div class="container justify-content-lg-end justify-content-md-center d-flex w-100 h-100"
@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <div
-                    class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-lg-start align-items-md-center d-flex flex-column">
+                    class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-lg-start align-items-md-center d-flex flex-column revealOnScroll">
                     <h3>"Learn from the basics, then you will know everything"</h3>
                     <h5>~ Krisna Pramudya Dharma ~</h5>
                 </div>
@@ -101,7 +101,7 @@
 
 
         <!-- Leader of el -->
-        <div class="leader-content">
+        <div class="leader-content revealOnScroll">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
                     <div class="container justify-content-end d-flex w-100 h-100" style="margin-bottom: 100px;">
@@ -140,7 +140,7 @@
 
         <div class="member-count" style="margin: 90px;">
             <div class="row">
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Head/Krisna.png" alt="" class="card-img-top">
@@ -162,7 +162,7 @@
                         <p>Electrician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Elc/mas dafa.png" alt="" class="card-img-top">
@@ -184,7 +184,7 @@
                         <p>Electrician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Elc/mas sukma.png" alt="" class="card-img-top">
@@ -206,7 +206,7 @@
                         <p>Electrician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Elc/wahyu.png" alt="" class="card-img-top">
@@ -228,7 +228,7 @@
                         <p>Electrician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Elc/hafiz.png" alt="" class="card-img-top">
@@ -250,7 +250,7 @@
                         <p>Electrician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Elc/irga.png" alt="" class="card-img-top">
@@ -284,9 +284,9 @@
             <div class="strip-team2"></div>
         </div>
 
-        <div class="leader-content my-5">
+        <div class="leader-content revealOnScroll my-5">
             <div class="row">
-                <div class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 25rem;">
                         <img src="assets/img/Teams/Mech/robby.png" alt="" class="card-img-top">
@@ -319,7 +319,7 @@
         <!-- Mechanical Members -->
         <div class="member-count" style="margin: 90px;">
             <div class="row">
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Mech/mas cigo.png" alt="" class="card-img-top">
@@ -341,7 +341,7 @@
                         <p>Mechanician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Mech/bhre.png" class="card-img-top">
@@ -363,7 +363,7 @@
                         <p>Mechanician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Mech/firlana.png" alt="" class="card-img-top">
@@ -385,7 +385,7 @@
                         <p>Mechanician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Mech/Jawhari.png" alt="" class="card-img-top">
@@ -407,7 +407,7 @@
                         <p>Mechanician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Mech/ali.png" alt="" class="card-img-top">
@@ -429,7 +429,7 @@
                         <p>Mechanician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Mech/abdul.png" alt="" class="card-img-top">
@@ -451,7 +451,7 @@
                         <p>Mechanician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Mech/rohmat.png" alt="" class="card-img-top">
@@ -473,9 +473,9 @@
                         <p>Mechanician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-end align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-end align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;"></div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-end align-items-end d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-end align-items-end d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px; margin-right: 0px!important;">
                     <!-- <img src="assets/img/Teams/Mech/Logo.png" alt="" class="team-mech-logo"> -->
                 </div>
@@ -491,9 +491,9 @@
         </div>
 
         <!-- Prog Leader -->
-        <div class="leader-content my-5">
+        <div class="leader-content revealOnScroll my-5">
             <div class="row">
-                <div class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 25rem;">
                         <img src="assets/img/Teams/Prog/mas banin.png" alt="" class="card-img-top">
@@ -528,7 +528,7 @@
         <!-- Prog Members -->
         <div class="member-count" style="margin: 90px;">
             <div class="row">
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/mas habib.png" alt="" class="card-img-top">
@@ -550,7 +550,7 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/mas Suryo.png" class="card-img-top">
@@ -572,7 +572,7 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/mas taras.png" alt="" class="card-img-top">
@@ -594,7 +594,7 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/maserik.png" alt="" class="card-img-top">
@@ -616,7 +616,7 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/mas taufik.png" alt="" class="card-img-top">
@@ -638,7 +638,7 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/danen.png" alt="" class="card-img-top">
@@ -660,7 +660,7 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/ian.png" alt="" class="card-img-top">
@@ -682,7 +682,7 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/wildan.png" alt="" class="card-img-top">
@@ -704,7 +704,7 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/Rama.png" alt="" class="card-img-top">
@@ -737,9 +737,9 @@
             <div class="strip-team2"></div>
         </div>
 
-        <div class="leader-content my-5">
+        <div class="leader-content revealOnScroll my-5">
             <div class="row">
-                <div class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 25rem;">
                         <img src="assets/img/Teams/Ofc/mbak naura.png" alt="" class="card-img-top">
@@ -762,7 +762,7 @@
                     </div>
                 </div>
                 <div
-                    class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-lg-start align-items-md-center d-flex flex-column text-md-center text-lg-start w-25">
+                    class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-lg-start align-items-md-center d-flex flex-column revealOnScroll text-md-center text-lg-start w-25">
                     <p>"The technical team always give their best to run our robots. Together, mechanics, electonics and
                         programmers build a great system to make the robots unbeatable. Here in official, our job is to
                         letting the world know about our robot abilities and support the team in administration and
@@ -775,7 +775,7 @@
         <!-- Ofc Members -->
         <div class="member-count" style="margin: 90px;">
             <div class="row">
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Ofc/mbak bela.png" alt="" class="card-img-top">
@@ -797,7 +797,7 @@
                         <p>Official at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Ofc/natasya.png" class="card-img-top">
@@ -819,7 +819,7 @@
                         <p>Official at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Ofc/hanif.png" alt="" class="card-img-top">
@@ -841,7 +841,7 @@
                         <p>Official at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Ofc/Ipul.png" alt="" class="card-img-top">
@@ -866,7 +866,6 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
         <footer style="background: rgba(232, 225, 240, 1);" class="py-4">
 
             <div class="row">
@@ -887,7 +886,6 @@
                 </div>
             </div>
         </footer>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
