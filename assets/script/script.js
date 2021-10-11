@@ -33,4 +33,106 @@ jQuery(function ($) {
 });
 
 
+// ===================================Animation===================================
+function spin() {
+  var spinning = document.querySelectorAll('.spin');
+  spinning.forEach((event) => {
+    event.classList.add('active');
+  });
+}
 
+function rightAnimate() {
+  var reveal = document.querySelectorAll('.toRight');
+  reveal.forEach(function (event) {
+    event.classList.add('active');
+  });
+}
+
+function leftAnimate() {
+  var reveal = document.querySelectorAll('.toLeft');
+  reveal.forEach(function (event) {
+    event.classList.add('active');
+  });
+}
+
+function topAnimate() {
+  var reveal = document.querySelectorAll('.toTop');
+  reveal.forEach(function (event) {
+    event.classList.add('active');
+  });
+}
+
+function spinStick() {
+  var reveal = document.querySelectorAll('.spinStick');
+  reveal.forEach(function (event) {
+    event.classList.add('active');
+  });
+}
+
+function fade() {
+  var reveal = document.querySelectorAll('.fade');
+  reveal.forEach(function (event) {
+    event.classList.add('active');
+  });
+}
+
+// ==========fade on scroll=========
+window.addEventListener('scroll', fadeOnScroll);
+
+function fadeOnScroll() {
+  var revealComponent = document.querySelectorAll('.revealOnScroll');
+
+  for (var i = 0; i < revealComponent.length; i++) {
+    var winHeight = window.innerHeight;
+    // console.log(winHeight);
+    var revealTop = revealComponent[i].getBoundingClientRect().top;
+    var pointOfReveal = 350;
+
+    if (revealTop < winHeight - pointOfReveal) {
+      revealComponent[i].classList.add('active')
+    }
+    else {
+      revealComponent[i].classList.remove('active')
+    }
+  }
+}
+
+window.addEventListener('scroll', toRightOnScroll);
+
+function toRightOnScroll() {
+  var revealComponent = document.querySelectorAll('.toRightOnScroll');
+
+  for (var i = 0; i < revealComponent.length; i++) {
+    var winHeight = window.innerHeight;
+    // console.log(winHeight);
+    var revealTop = revealComponent[i].getBoundingClientRect().top;
+    var pointOfReveal = 350;
+
+    if (revealTop < winHeight - pointOfReveal) {
+      revealComponent[i].classList.add('active')
+    }
+    else {
+      revealComponent[i].classList.remove('active')
+    }
+  }
+}
+
+window.addEventListener('scroll', toLeftOnScroll);
+
+function toLeftOnScroll() {
+  var revealComponent = document.querySelectorAll('.toLeftOnScroll');
+
+  for (var i = 0; i < revealComponent.length; i++) {
+    var winHeight = window.innerHeight;
+    // console.log(winHeight);
+    var revealTop = revealComponent[i].getBoundingClientRect().top;
+    var pointOfReveal = 350;
+
+    if (revealTop < winHeight - pointOfReveal) {
+      revealComponent[i].classList.add('active')
+    }
+    else {
+      revealComponent[i].classList.remove('active')
+    }
+  }
+}

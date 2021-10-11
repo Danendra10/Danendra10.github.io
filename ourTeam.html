@@ -17,9 +17,9 @@
     <title>IRIS ITS || Our Team</title>
 </head>
 
-<body>
+<body onload="rightAnimate(); topAnimate(); leftAnimate(); spin(); spinStick(); fade()">
     <div class="container-fluid headContent">
-        <div class="d-flex flex-row top-team align-items-center">
+        <div class="d-flex flex-row top-team align-items-center toRight">
             <img src="assets/img/team/strip1.png" alt="" class="strip1">
             <img src="assets/img/team/its.png" alt="" class="header-team-elem">
             <img src="assets/img/team/robotic.png" alt="" class="header-team-elem">
@@ -28,16 +28,16 @@
 
         <div class="row team-head-text d-flex align-items-center">
             <div class="col-lg-4">
-                <img src="assets/img/team/round.png" alt="" class="round-team">
-                <img src="assets/img/team/prog.png" alt="" class="prog-team">
-                <img src="assets/img/team/star.png" alt="" class="star-team">
-                <img src="assets/img/team/el.png" alt="" class="el-team">
-                <img src="assets/img/team/mech.png" alt="" class="mech-team">
-                <img src="assets/img/team/ofc.png" alt="" class="ofc-team">
+                <img src="assets/img/team/round.png" alt="" class="round-team spinStick">
+                <img src="assets/img/team/prog.png" alt="" class="prog-team fade">
+                <img src="assets/img/team/star.png" alt="" class="star-team spinStick">
+                <img src="assets/img/team/el.png" alt="" class="el-team fade">
+                <img src="assets/img/team/mech.png" alt="" class="mech-team fade">
+                <img src="assets/img/team/ofc.png" alt="" class="ofc-team fade">
             </div>
             <div class="col-lg-8">
                 <h1 style="margin: 200px auto">Get To Know The Team</h1>
-                <div class="row">
+                <div class="row toLeft">
                     <div class="col-lg-11 w-content">
                         <h3 class="d-flex justify-content-end align-items-center">behind the wheel of IRIS</h3>
                         <img src="assets/img/team/strip2.png" alt="" class="strip2 w-100">
@@ -57,19 +57,25 @@
             <div class="strip-team2"></div>
         </div>
 
-        <div class="leader-content">
+        <div class="leader-content revealOnScroll">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
-                    <div class="container justify-content-end d-flex w-100 h-100" style="margin-bottom: 100px;">
+                    <div class="container justify-content-lg-end justify-content-md-center d-flex w-100 h-100"
+                        style="margin-bottom: 100px;">
                         <div class="flex-column">
                             <div class="card" style="width: 18rem;">
                                 <img src="assets/img/Teams/Head/Krisna.png" alt="" class="card-img-top">
                                 <div class="card-body">
                                     <p class="card-text"></p>
-                                    <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                        target="_blank"><i class="fa fa-linkedin"></i></a>
-                                    <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                            class="fa fa-instagram"></i></a>
+                                    <a href="https://www.instagram.com/krisnapram/">
+                                        <img src="assets/img/Teams/insta.png" alt="">
+                                    </a>
+                                    <a href="mailto:dharma.pram1@gmail.com">
+                                        <img src="assets/img/Teams/email.png" alt="">
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/krisna-p-253767117/">
+                                        <img src="assets/img/Teams/linkedin.png" alt="">
+                                    </a>
                                 </div>
                             </div>
                             <div class="content-text justify-content-center">
@@ -80,7 +86,7 @@
                     </div>
                 </div>
                 <div
-                    class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-start d-flex text-center flex-column">
+                    class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-lg-start align-items-md-center d-flex flex-column revealOnScroll">
                     <h3>"Learn from the basics, then you will know everything"</h3>
                     <h5>~ Krisna Pramudya Dharma ~</h5>
                 </div>
@@ -95,11 +101,12 @@
 
 
         <!-- Leader of el -->
-        <div class="leader-content">
+        <div class="leader-content revealOnScroll">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
                     <div class="container justify-content-end d-flex w-100 h-100" style="margin-bottom: 100px;">
-                        <div class="content-caption d-flex align-items-end flex-column">
+                        <div
+                            class="content-caption d-flex align-items-end flex-column align-items-lg-start align-items-md-center">
                             <!-- <img src="assets/img/Teams/Elc/Logo.png" alt="" class="team-elc-logo"> -->
                             <h3>"You can never have enough of free workspace"</h3>
                             <h5>~ Head Chief of Electrical Division at IRIS ITS ~</h5>
@@ -112,10 +119,15 @@
                         <img src="assets/img/Teams/Elc/mas zul.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/zulfiar.am/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="zulfiar.19071@mhs.its.ac.id">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/zulfiar-ahimsa-mahardhika-007368188/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -128,16 +140,21 @@
 
         <div class="member-count" style="margin: 90px;">
             <div class="row">
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Head/Krisna.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/krisnapram/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:dharma.pram1@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/krisna-p-253767117/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -145,16 +162,21 @@
                         <p>Electrician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Elc/mas dafa.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/dafarik.fil/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -162,16 +184,21 @@
                         <p>Electrician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Elc/mas sukma.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/habibsukma/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:habibsukmatrade@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/habib-sukma-958a67189">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -179,16 +206,21 @@
                         <p>Electrician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Elc/wahyu.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/wahyusholehpriananda/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:wahyusholeh89@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/wahyusholehpriananda">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -196,16 +228,21 @@
                         <p>Electrician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Elc/hafiz.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/hafizzainfahrizal/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:hafizzain643@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/hafiz-zain-fahrizal-804838220">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -213,16 +250,21 @@
                         <p>Electrician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Elc/irga.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/irgamerdian_/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:irgamerdian@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/mwlite/in/irga-merdiansyah-b98927211">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -242,18 +284,23 @@
             <div class="strip-team2"></div>
         </div>
 
-        <div class="leader-content my-5">
+        <div class="leader-content revealOnScroll my-5">
             <div class="row">
-                <div class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 25rem;">
                         <img src="assets/img/Teams/Mech/robby.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/___instageram/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:robbysurya22@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/robbysf">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -262,7 +309,7 @@
                     </div>
                 </div>
                 <div
-                    class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-start d-flex text-center flex-column">
+                    class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-lg-start align-items-md-center d-flex text-center flex-column">
                     <h3>"Usaha tidak akan menghianati hasil!"</h3>
                     <h5>~ Robby Surya Firmansyah ~</h5>
                 </div>
@@ -272,16 +319,21 @@
         <!-- Mechanical Members -->
         <div class="member-count" style="margin: 90px;">
             <div class="row">
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Mech/mas cigo.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/cigoagengw/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:cigo.ageng@yahoo.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/cigoageng/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -289,16 +341,21 @@
                         <p>Mechanician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Mech/bhre.png" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/bhrekelle/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:bhresatriavi@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/bhre-satriavi-dentawyanjana-4707281b8/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -306,16 +363,21 @@
                         <p>Mechanician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Mech/firlana.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/firlanabaiturrochman/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:fibaroh11768910@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/firlana-baiturrochman-7716b0196/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -323,16 +385,21 @@
                         <p>Mechanician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Mech/Jawhari.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/jawhari_fauzi/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:ahmadjawhari02@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/ahmad-jawhari-fauzi-23a0661ba/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -340,16 +407,21 @@
                         <p>Mechanician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Mech/ali.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/aliyafimhmd/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -357,16 +429,21 @@
                         <p>Mechanician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Mech/abdul.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/abdulhakim150402/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:abdulhakim.a2002@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/abdul-hakim-al-amin/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -374,16 +451,21 @@
                         <p>Mechanician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Mech/rohmat.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/r_rizki27/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:rperkasaputra@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/rokhmat-r-383347137/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -391,9 +473,9 @@
                         <p>Mechanician at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-end align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-end align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;"></div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-end align-items-end d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-end align-items-end d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px; margin-right: 0px!important;">
                     <!-- <img src="assets/img/Teams/Mech/Logo.png" alt="" class="team-mech-logo"> -->
                 </div>
@@ -409,18 +491,23 @@
         </div>
 
         <!-- Prog Leader -->
-        <div class="leader-content my-5">
+        <div class="leader-content revealOnScroll my-5">
             <div class="row">
-                <div class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 25rem;">
                         <img src="assets/img/Teams/Prog/mas banin.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/toletoletoletoletoletole/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:baninhadin@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/banin-hadin/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -430,7 +517,7 @@
 
                 </div>
                 <div
-                    class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-start d-flex text-center flex-column">
+                    class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-lg-start align-items-md-center d-flex text-center flex-column">
                     <h3>First Rule of Programming:</h3>
                     <h3>If it works, don’t touch it</h3>
                     <h5>~ Banin Fawwaz Hadin ~</h5>
@@ -441,16 +528,21 @@
         <!-- Prog Members -->
         <div class="member-count" style="margin: 90px;">
             <div class="row">
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/mas habib.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/habibihza_/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:habibihzaa@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/habibihza/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -458,16 +550,21 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/mas Suryo.png" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/suryoag_/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:sevensag@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/suryo-adiguna-635b9818a/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -475,16 +572,21 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/mas taras.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/taras_genovievo/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/taras-genovievo">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -492,16 +594,21 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/maserik.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/faderik_/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:erikfaderik@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/faderik/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -509,16 +616,21 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/mas taufik.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/taufikhdayat_/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:hiitaufik24@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/taufikhdayat/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -526,16 +638,21 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/danen.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/d_dnndr/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:danendraclever24@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/danendraclevero/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -543,16 +660,21 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/ian.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/iangavriel/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:iangavriel@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/iangavriel/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -560,16 +682,21 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/wildan.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/azzamwildan462/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:azzamwildan462@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/azzam-wildan-maulana-72953a207/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -577,16 +704,21 @@
                         <p>Programmer at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Prog/Rama.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/ahmdramdhni/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:ahhmaad.blogger@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/ahmad-ferdiansyah-ramadhani-243aa9208/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -605,18 +737,23 @@
             <div class="strip-team2"></div>
         </div>
 
-        <div class="leader-content my-5">
+        <div class="leader-content revealOnScroll my-5">
             <div class="row">
-                <div class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 25rem;">
                         <img src="assets/img/Teams/Ofc/mbak naura.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/nastaura/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:marsha.nabilah@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/nastaura-erina-a-103645204/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -624,8 +761,8 @@
                         <p>Head Chief of Official Division at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-start d-flex flex-column"
-                    style="width: 40rem">
+                <div
+                    class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-lg-start align-items-md-center d-flex flex-column revealOnScroll text-md-center text-lg-start w-25">
                     <p>"The technical team always give their best to run our robots. Together, mechanics, electonics and
                         programmers build a great system to make the robots unbeatable. Here in official, our job is to
                         letting the world know about our robot abilities and support the team in administration and
@@ -638,16 +775,21 @@
         <!-- Ofc Members -->
         <div class="member-count" style="margin: 90px;">
             <div class="row">
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Ofc/mbak bela.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/belamarshaaa/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:marsha.nabilah@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/marsha-nabilah-63b6ab179">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -655,16 +797,21 @@
                         <p>Official at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Ofc/natasya.png" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/nathasyarnt/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:natasyaharianti01@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/natasya-septina-arianti/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -672,16 +819,21 @@
                         <p>Official at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Ofc/hanif.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/hanif_ariq/">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:hanifariq18@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/hanifariq/">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -689,16 +841,21 @@
                         <p>Official at IRIS ITS</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column"
+                <div class="col-lg-4 col-sm-12 content-caption justify-content-center align-items-center d-flex flex-column revealOnScroll"
                     style="margin-bottom: 50px;">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/Teams/Ofc/Ipul.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text"></p>
-                            <a href="https://www.linkedin.com/in/krisna-p-253767117/" class="btn mr-2"
-                                target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/krisnapram/" class="btn " target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="syaefullahvonc@gmail.com">
+                                <img src="assets/img/Teams/insta.png" alt="">
+                            </a>
+                            <a href="mailto:syaefullahvonc@gmail.com">
+                                <img src="assets/img/Teams/email.png" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/in/whattheploee">
+                                <img src="assets/img/Teams/linkedin.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="content-text justify-content-center text-center flex-column d-flex">
@@ -709,22 +866,26 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
         <footer style="background: rgba(232, 225, 240, 1);" class="py-4">
 
             <div class="row">
                 <div class="col-6 d-flex justify-content-center align-items-center">
-                    <p> Copyright &copy; <script>document.write(new Date().getFullYear())</script></p>
+                    <p> Copyright &copy;
+                        <script>document.write(new Date().getFullYear())</script>
+                    </p>
                 </div>
                 <div class="col-6 d-flex">
-                    <a href="https://www.instagram.com/iris.itsrobotic/"><img src="assets/img/footer/ig.png" alt="" class="mx-1"></a>
-                    <a href="mailto:iris.krsbi@gmail.com"><img src="assets/img/footer/gmail.png" alt="" class="mx-1"></a>
-                    <a href="https://www.linkedin.com/company/iris-its/mycompany/"><img src="assets/img/footer/in.png" alt="" class="mx-1"></a>
-                    <a href="https://www.youtube.com/channel/UCOmBeTiru1hFtOiGXneI_Gw"><img src="assets/img/footer/yt.png" alt="" class="mx-1"></a>
+                    <a href="https://www.instagram.com/iris.itsrobotic/"><img src="assets/img/footer/ig.png" alt=""
+                            class="mx-1"></a>
+                    <a href="mailto:iris.krsbi@gmail.com"><img src="assets/img/footer/gmail.png" alt=""
+                            class="mx-1"></a>
+                    <a href="https://www.linkedin.com/company/iris-its/mycompany/"><img src="assets/img/footer/in.png"
+                            alt="" class="mx-1"></a>
+                    <a href="https://www.youtube.com/channel/UCOmBeTiru1hFtOiGXneI_Gw"><img
+                            src="assets/img/footer/yt.png" alt="" class="mx-1"></a>
                 </div>
             </div>
         </footer>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
