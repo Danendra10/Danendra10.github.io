@@ -11,103 +11,233 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="shortcut icon" href="assets/imgs/Logo/icon-iris.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
     <title>IRIS ITS</title>
 </head>
 
 <body>
-    <header class="header-area overlay">
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <div class="container">
-                <a href="#" class="navbar-brand">IRIS</a>
+    <nav class="navbar">
+        <div class="container">
 
-                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
-                    <span class="menu-icon-bar"></span>
-                    <span class="menu-icon-bar"></span>
-                    <span class="menu-icon-bar"></span>
+            <!-- Navbar Header [collects both toggle button and navbar brand] -->
+            <div class="navbar-header">
+                <!-- Toggle Button [handles opening navbar menu on mobile screens]-->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#exampleNavComponents" aria-expanded"false">
+                    <i class="glyphicon glyphicon-align-center"></i>
                 </button>
 
-                <div id="main-nav" class="collapse navbar-collapse justify-content-end">
-                    <ul class="navbar-nav ml-auto ">
-                        <li><a href="#" class="nav-item nav-link active">Home</a></li>
-                        <li><a href="#" class="nav-item nav-link">Publications</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="nav-item nav-link" data-toggle="dropdown">Achivements</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">2017</a>
-                                <a href="#" class="dropdown-item">2018</a>
-                                <a href="#" class="dropdown-item">2019</a>
-                                <a href="#" class="dropdown-item">2020</a>
-                                <a href="#" class="dropdown-item">2021</a>
-                            </div>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="nav-item nav-link" data-toggle="dropdown">Competitions</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">KRI</a>
-                                <a href="#" class="dropdown-item">Robocup</a>
-                                <a href="#" class="dropdown-item">FIRA Roboworld Cup</a>
-                            </div>
-                        </li>                        
-                        <li class="dropdown">
-                            <a href="#" class="nav-item nav-link" data-toggle="dropdown">History</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">Team</a>
-                                <a href="#" class="dropdown-item">Robot</a>
-                            </div>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="nav-item nav-link" data-toggle="dropdown">Find Out</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">IRIS News</a>
-                                <a href="#" class="dropdown-item">IRIS Edu</a>
-                                <a href="#" class="dropdown-item">Our Teams</a>
-                                <a href="#" class="dropdown-item">Contact Us!!</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <!-- Navbar Brand -->
+                <a href="#" class="navbar-brand">
+                    Bootstrap Navbar
+                </a>
             </div>
-        </nav>
-    </header>
 
-    <main>
-        <section id="content" class="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam elementum
-                            lectus et tempor molestie. Pellentesque vestibulum dui sit amet dui volutpat sollicitudin.
-                            Etiam non erat finibus, iaculis nunc vel, convallis eros. Etiam efficitur tempor dui, vitae
-                            fringilla ipsum tristique quis. Aliquam erat volutpat. Cras ullamcorper ex et viverra
-                            vulputate. Nam lectus ligula, pretium nec risus nec, ultricies fringilla mauris. Proin quis
-                            venenatis neque, iaculis porta nulla. </p>
+
+            <!-- Navbar Collapse [collect navbar components such as navbar links and forms ] -->
+            <div class="collapse navbar-collapse" id="exampleNavComponents">
+
+                <!-- Navbar Links -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                </ul>
+
+                <!-- Navbar Form -->
+                <form action="#" class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
                     </div>
-                    <div class="col-md-4">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam elementum
-                            lectus et tempor molestie. Pellentesque vestibulum dui sit amet dui volutpat sollicitudin.
-                            Etiam non erat finibus, iaculis nunc vel, convallis eros. Etiam efficitur tempor dui, vitae
-                            fringilla ipsum tristique quis. Aliquam erat volutpat. Cras ullamcorper ex et viverra
-                            vulputate. Nam lectus ligula, pretium nec risus nec, ultricies fringilla mauris. Proin quis
-                            venenatis neque, iaculis porta nulla. </p>
-                    </div>
-                    <div class="col-md-4">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam elementum
-                            lectus et tempor molestie. Pellentesque vestibulum dui sit amet dui volutpat sollicitudin.
-                            Etiam non erat finibus, iaculis nunc vel, convallis eros. Etiam efficitur tempor dui, vitae
-                            fringilla ipsum tristique quis. Aliquam erat volutpat. Cras ullamcorper ex et viverra
-                            vulputate. Nam lectus ligula, pretium nec risus nec, ultricies fringilla mauris. Proin quis
-                            venenatis neque, iaculis porta nulla. </p>
-                    </div>
-                </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+
+                <!-- Navbar Button -->
+                <button type="button" class="btn navbar-btn navbar-right">Sign in</button>
+
             </div>
-        </section>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="assets/script/script.js"></script>
+        </div>
+
+    </nav>
+    <style>
+        /* ==========================================================
+        General Demo Styles [not related to navbar]
+   ==========================================================*/
+        @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.8em;
+            font-weight: 300;
+            color: #777;
+            margin: 30px 0;
+        }
+
+        strong {
+            font-weight: 600;
+            color: #333;
+        }
+
+        a {
+            -webkit-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        .line {
+            width: 100%;
+            height: 1px;
+            margin: 30px 0;
+            border-bottom: 1px dashed #ddd;
+        }
+
+        .content {
+            padding: 50px 0;
+        }
+
+        ::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            color: #eee !important;
+        }
+
+        ::-moz-placeholder {
+            /* Firefox 19+ */
+            color: #eee !important;
+        }
+
+        :-ms-input-placeholder {
+            /* IE 10+ */
+            color: #eee !important;
+        }
+
+        :-moz-placeholder {
+            /* Firefox 18- */
+            color: #eee !important;
+        }
+
+
+        /* ==========================================================
+        Navbar Styles
+   ==========================================================*/
+        nav.navbar {
+            background: #6d7fcc;
+            color: #fff;
+            border-bottom: none;
+            border-radius: 0;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
+            padding: 15px 0;
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+        }
+
+        /* Navbar Brand */
+        nav.navbar a.navbar-brand {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        nav.navbar a.navbar-brand:hover,
+        nav.navbar a.navbar-brand:focus {
+            color: inherit;
+        }
+
+
+        /* Toggle Button */
+        nav.navbar .navbar-toggle {
+            background: #fff;
+            color: #333;
+            border: none;
+            border-radius: 0;
+        }
+
+        nav.navbar .navbar-toggle:hover,
+        nav.navbar .navbar-toggle:focus {
+            background: #fff;
+            color: #333;
+        }
+
+        /* Navbar Components Holder */
+        nav.navbar .navbar-collapse {
+            border: none;
+        }
+
+        /* Navbar links */
+        nav.navbar ul.navbar-nav {
+            border: none;
+        }
+
+        nav.navbar ul.navbar-nav a {
+            color: #fff;
+        }
+
+        nav.navbar ul.navbar-nav a:hover,
+        nav.navbar ul.navbar-nav a:focus {
+            color: #333;
+            background: #fff;
+        }
+
+
+
+        /* Navbar Form */
+        nav.navbar form.navbar-form input {
+            border-radius: 0;
+            border-color: #6172b9;
+            background: none;
+            color: #fff;
+            font-weight: 300;
+        }
+
+        nav.navbar form.navbar-form button {
+            background: #6172b9;
+            color: #fff;
+            border-color: #6172b9;
+            border-radius: 0;
+            box-shadow: none !important;
+            outline: none;
+        }
+
+        nav.navbar form.navbar-form button:hover {
+            background: #fff;
+            color: #6172b9;
+        }
+
+        /* Navbar Button */
+        nav.navbar button.navbar-btn {
+            border-radius: 0;
+            border-color: #6172b9;
+            background: #6172b9;
+            color: #fff;
+        }
+
+        nav.navbar button.navbar-btn:hover {
+            background: #fff;
+            color: #6172b9;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            // Calculating the distance from the top of the page to the initial position of the navbar, and store it in a variable
+            var navbarOffest = $(".navbar").offset().top;
+
+            $(window).on("scroll", function () {
+                var navbarHeight = $(".navbar").outerHeight();
+
+                if ($(window).scrollTop() >= navbarOffest) {
+                    $(".navbar").addClass("navbar-fixed-top");
+                    $("body").css("padding-top", navbarHeight + "px");
+                } else {
+                    $(".navbar").removeClass("navbar-fixed-top");
+                    $("body").css("padding-top", "0");
+                }
+            });
+        });
+
+    </script>
 </body>
 
 </html>
