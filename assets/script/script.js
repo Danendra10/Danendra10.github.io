@@ -76,6 +76,12 @@ function fade() {
   });
 }
 
+function spinFromLeft() {
+  var reveal = document.querySelectorAll('.spinFromLeft');
+  reveal.forEach(function (event) {
+    event.classList.add('active');
+  });
+}
 // ==========fade on scroll=========
 window.addEventListener('scroll', fadeOnScroll);
 

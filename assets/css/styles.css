@@ -982,7 +982,7 @@ form {
 .achivement-top-content p {
   font-family: sans-serif !important;
   font-style: normal;
-  font-weight:lighter;
+  font-weight: lighter;
   font-size: 35px;
   line-height: 50px;
   text-align: justify;
@@ -1002,16 +1002,303 @@ form {
   color: #120d31;
 }
 
-.p-absolute{
+.p-absolute {
   position: absolute;
+  top: 10px;
+  left: -10px;
 }
 
-.p-relative{
+.p-relative {
   position: relative;
 }
 
-.mt-10{
+.mt-10 {
   margin-top: 10%;
+}
+
+/* ========================================Template timeline==================================== */
+body {
+  margin-top: 20px;
+}
+.card {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+}
+.timeline {
+  /* background: #ffffff; */
+  border-left: 3px solid #ffffff;
+  /* background: rgba(114, 124, 245, 0.09); */
+  margin: 0 auto;
+  letter-spacing: 0.2px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  max-width: 40%;
+}
+
+@media (max-width: 767px) {
+  .timeline {
+    max-width: 98%;
+    padding: 25px;
+  }
+}
+
+.timeline h1 {
+  font-weight: 300;
+  font-size: 2.4em;
+}
+
+.event2 h1 {
+  position: absolute;
+  left: -207px;
+  text-align: left;
+  font-weight: 100;
+  font-size: 2.4em;
+  min-width: 120px;
+}
+
+.event2 h2{
+  position: absolute;
+  left: -507px;
+  text-align: left;
+  font-weight: 100;
+  min-width: 120px;
+}
+
+.event2.smaller h3 {
+  position: absolute;
+  left: -507px;
+  min-width: 120px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: lighter;
+  text-align: right;
+  
+  color: #151131;
+}
+
+.event2 h2 {
+  font-size: 1.8em !important;
+}
+
+.timeline h2,
+.timeline h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.timeline .event {
+  /* border-bottom: 1px dashed #e8ebf1; */
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .timeline .event {
+    padding-top: 30px;
+  }
+}
+
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .event:before {
+  left: -207px;
+  content: attr(data);
+  text-align: right;
+  font-weight: 100;
+  font-size: 2em;
+  min-width: 120px;
+}
+
+@media (max-width: 767px) {
+  .timeline .event:before {
+    left: 0px;
+    text-align: left;
+  }
+}
+
+.timeline .event:after {
+  /* -webkit-box-shadow: 0 0 0 3px #727cf5;
+    box-shadow: 0 0 0 3px #727cf5; */
+  background: #6ddccf;
+  border: 20px solid #6ddccf;
+  border-radius: 50%;
+  left: -70.8px;
+  /* background: #fff; */
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+  content: "";
+  top: 0px;
+}
+
+.timeline .event.darker:after {
+  /* -webkit-box-shadow: 0 0 0 3px #727cf5;
+    box-shadow: 0 0 0 3px #727cf5; */
+  background: rgba(101, 167, 219, 1);
+  border: 20px solid rgba(101, 167, 219, 1);
+  border-radius: 50%;
+  left: -70.8px;
+  /* background: #fff; */
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+  content: "";
+  top: 0px;
+}
+
+.timeline .event.smaller:after {
+  border: 10px solid rgba(109, 220, 207, 1) !important;
+  left: -60.8px;
+  top: 0px;
+}
+
+.timeline .event.smaller-dark:after {
+  border: 10px solid rgba(101, 167, 219, 1) !important;
+  left: -60.8px;
+  top: 0px;
+}
+
+@media (max-width: 767px) {
+  .timeline .event2:before {
+    left: 0px;
+    text-align: left;
+  }
+}
+
+/* .timeline .event2:before {
+  left: -207px;
+  content: attr(data);
+  text-align: right;
+  font-weight: 100;
+  font-size: 2.5em;
+  min-width: 120px;
+} */
+
+.timeline .event2 {
+  /* border-bottom: 1px dashed #e8ebf1; */
+  padding-bottom: 25px;
+  margin-bottom: 45px;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .timeline .event2 {
+    padding-top: 30px;
+  }
+}
+
+.timeline .event2:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 100px;
+  border: none;
+}
+
+.timeline .event2:before,
+.timeline .event2:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+/* .timeline .event2:before {
+  left: -207px;
+  content: attr(data);
+  text-align: right;
+  font-weight: 100;
+  font-size: 2em;
+  min-width: 120px;
+} */
+
+@media (max-width: 767px) {
+  .timeline .event2:before {
+    left: 0px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .timeline .event2:after {
+    left: -31.8px;
+  }
+}
+
+.timeline .event2:after {
+  /* -webkit-box-shadow: 0 0 0 3px #727cf5;
+    box-shadow: 0 0 0 3px #727cf5; */
+  background: rgba(101, 167, 219, 1);
+  border: 20px solid rgba(101, 167, 219, 1);
+  border-radius: 50%;
+  left: -70.8px;
+  /* background: #fff; */
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+  content: "";
+  top: 0px;
+}
+
+.timeline .event2.darker:after {
+  /* -webkit-box-shadow: 0 0 0 3px #727cf5;
+    box-shadow: 0 0 0 3px #727cf5; */
+  background: rgba(21, 17, 49, 1);
+  border: 20px solid rgba(21, 17, 49, 1);
+  border-radius: 50%;
+  left: -70.8px;
+  /* background: #fff; */
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+  content: "";
+  top: 0px;
+}
+
+.timeline .event2.smaller:after {
+  border: 10px solid rgba(101, 167, 219, 1) !important;
+  left: -60.8px;
+  top: 0px;
+}
+
+.timeline .event2.smaller-dark:after {
+  border: 10px solid rgba(21, 17, 49, 1) !important;
+  left: -60.8px;
+  top: 0px;
+}
+
+.rtl .timeline {
+  border-left: 0;
+  text-align: right;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  border-right: 3px solid #727cf5;
+}
+
+.rtl .timeline .event::before {
+  left: 0;
+  right: -170px;
+}
+
+.rtl .timeline .event::after {
+  left: 0;
+  right: -55.8px;
 }
 /* =============================================================Animations============================================================= */
 /* =========spin================ */
@@ -1080,6 +1367,10 @@ form {
   transform: translateX(0px);
   transition: all 2s ease;
 }
+.spinFromLeft.active {
+  opacity: 1;
+  animation: spinFromLeft 2s;
+}
 /* =============================Animation's Keyframes============================= */
 @keyframes spin {
   0% {
@@ -1137,4 +1428,11 @@ form {
   }
 }
 
-/* @keyframes */
+@keyframes spinFromLeft {
+  0% {
+    transform: translateX(-1900px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(0px) rotate(360deg);
+  }
+}
