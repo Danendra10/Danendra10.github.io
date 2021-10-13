@@ -21,7 +21,7 @@
         <!-- <div class="container" style="color: #fff"> -->
         <p class="p-contact">For Further Information</p>
         <h2 class="h2-contact">You Can Contact Us On</h2>
-        <a href="./contact-us.html" class="button" style="text-decoration: none;">Click Here!!</a>
+        <a href="./contact-us.html" class="button strip" style="text-decoration: none;">Click Here!!</a>
         <!-- </div> -->
     </div>
 
@@ -33,7 +33,7 @@
 
         .cta-area {
             /* background: url(assets/imgs/homepage/banner-5.jpg) left center no-repeat; */
-            background: linear-gradient(179.37deg, rgba(21, 17, 49, 0.8) 46.07%, rgba(134, 129, 168, 0) 95.03%), url("assets/img/homecontact/banner-5.jpg");
+            background: linear-gradient(179.37deg, rgba(21, 17, 49, 0.8) 46.07%, rgba(134, 129, 168, 0) 95.03%), url("assets/img/homePage/rbc 19 1.JPG");
             /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("assets/img/homecontact/banner-5.jpg"); */
             background-size: cover;
             background-position: center 70%;
@@ -60,9 +60,26 @@
             transition: all 0.5s ease 0s;
         }
 
-        .button::after {
+        .strip::before {
+            content: "";
+            position: absolute;
+            left: 67.18%;
+            right: 6.17%;
+            top: 65.64%;
+            bottom: 33.64%;
+
+            background: linear-gradient(90deg, #151231 0%, #1A1B39 5.92%, #28354D 15.77%, #3E5E6E 28.34%, #5D979C 42.97%, #7ACCC6 55.21%, #7ACCC6 86.52%, #65A7DB 99.44%);
+        }
+
+        .strip::after {
+            content: "";
+            position: absolute;
+            left: 6.14%;
+            right: 67.42%;
+            top: 65.34%;
+            bottom: 33.94%;
+
             background: linear-gradient(270deg, #151231 0%, #1A1B39 5.92%, #28354D 15.77%, #3E5E6E 28.34%, #5D979C 42.97%, #7ACCC6 55.21%, #7ACCC6 86.52%, #65A7DB 99.44%);
-            
         }
 
         .text-center p,

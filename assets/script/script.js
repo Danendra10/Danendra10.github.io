@@ -76,6 +76,12 @@ function fade() {
   });
 }
 
+function spinFromLeft() {
+  var reveal = document.querySelectorAll('.spinFromLeft');
+  reveal.forEach(function (event) {
+    event.classList.add('active');
+  });
+}
 // ==========fade on scroll=========
 window.addEventListener('scroll', fadeOnScroll);
 
@@ -97,6 +103,7 @@ function fadeOnScroll() {
   }
 }
 
+// ============ke kanan================
 window.addEventListener('scroll', toRightOnScroll);
 
 function toRightOnScroll() {
@@ -106,7 +113,7 @@ function toRightOnScroll() {
     var winHeight = window.innerHeight;
     // console.log(winHeight);
     var revealTop = revealComponent[i].getBoundingClientRect().top;
-    var pointOfReveal = 350;
+    var pointOfReveal = 190;
 
     if (revealTop < winHeight - pointOfReveal) {
       revealComponent[i].classList.add('active')
@@ -126,7 +133,27 @@ function toLeftOnScroll() {
     var winHeight = window.innerHeight;
     // console.log(winHeight);
     var revealTop = revealComponent[i].getBoundingClientRect().top;
-    var pointOfReveal = 350;
+    var pointOfReveal = 190;
+
+    if (revealTop < winHeight - pointOfReveal) {
+      revealComponent[i].classList.add('active')
+    }
+    else {
+      revealComponent[i].classList.remove('active')
+    }
+  }
+}
+
+window.addEventListener('scroll', toFadeOnScroll);
+
+function toFadeOnScroll() {
+  var revealComponent = document.querySelectorAll('.toFadeOnScroll');
+
+  for (var i = 0; i < revealComponent.length; i++) {
+    var winHeight = window.innerHeight;
+    // console.log(winHeight);
+    var revealTop = revealComponent[i].getBoundingClientRect().top;
+    var pointOfReveal = 190;
 
     if (revealTop < winHeight - pointOfReveal) {
       revealComponent[i].classList.add('active')

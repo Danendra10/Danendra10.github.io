@@ -5,75 +5,439 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- =============================Links================================== -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <link rel="shortcut icon" href="assets/imgs/Logo/icon-iris.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>IRIS ITS</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/img/Logo/icon-iris.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+    <title>IRIS ITS || Achivements</title>
 </head>
 
-<body>
-    <header class="header-area overlay">
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <div class="container">
-                <a href="#" class="navbar-brand">IRIS</a>
+<body style="overflow-x: hidden; width">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/Logo/navbar.png" style="margin-left: 50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
 
-                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
-                    <span class="menu-icon-bar"></span>
-                    <span class="menu-icon-bar"></span>
-                    <span class="menu-icon-bar"></span>
-                </button>
+            </button>
+            <div class="d-flex" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link currentPage" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./publication.html">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./achivement.html" role="button">
+                            Achivements
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Competitions
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li>
+                                <a class="dropdown-item" target="_blank"
+                                    href="https://kontesrobotindonesia.id/index.html">KRI</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" target="_blank" href="https://www.robocup.org/">Robocup</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" target="_blank" href="https://firaworldcup.org/">FIRA Roboworld
+                                    Cup</a>
+                            </li>
+                        </ul>
+                    </li>
 
-                <div id="main-nav" class="collapse navbar-collapse justify-content-end">
-                    <ul class="navbar-nav ml-auto ">
-                        <li><a href="#" class="nav-item nav-link active">Home</a></li>
-                        <li><a href="#" class="nav-item nav-link">Publications</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="nav-item nav-link" data-toggle="dropdown">Achivements</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">2017</a>
-                                <a href="#" class="dropdown-item">2018</a>
-                                <a href="#" class="dropdown-item">2019</a>
-                                <a href="#" class="dropdown-item">2020</a>
-                                <a href="#" class="dropdown-item">2021</a>
-                            </div>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="nav-item nav-link" data-toggle="dropdown">Competitions</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">KRI</a>
-                                <a href="#" class="dropdown-item">Robocup</a>
-                                <a href="#" class="dropdown-item">FIRA Roboworld Cup</a>
-                            </div>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="nav-item nav-link" data-toggle="dropdown">History</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">Team</a>
-                                <a href="#" class="dropdown-item">Robot</a>
-                            </div>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="nav-item nav-link" data-toggle="dropdown">Find Out</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">IRIS News</a>
-                                <a href="#" class="dropdown-item">IRIS Edu</a>
-                                <a href="#" class="dropdown-item">Our Teams</a>
-                                <a href="#" class="dropdown-item">Contact Us!!</a>
-                            </div>
-                        </li>
-                    </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            History
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="./coming-soon.html">Team</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./coming-soon.html">Robots</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Find Out
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="./coming-soon.html">IRIS Edu</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./coming-soon.html">IRIS News</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./ourTeam.html">Our Team</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./ContactUs.html">Contact Us</a>
+                            </li>{}
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" style="height: 100%; ">
+        <div class="row" style="margin-top: 10%">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" id="grid1">
+                <div id="group28"><img src="assets/img/HomePage/Group 28.png" alt="" /></div>
+                <div id="asset3"><img src="assets/img/HomePage/Asset 3.png" alt="" /></div>
+                <div id="vector"><img src="assets/img/HomePage/Vector.png" alt="" /></div>
+                <div id="asset4"><img src="assets/img/HomePage/Asset 4.png" alt="" /></div>
+                <div id="vector2"><img src="assets/img/HomePage/Vector.png" alt="" /></div>
+                <div id="group1"><img src="assets/img/HomePage/Group 1.png" alt="" /></div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" id="grid2">
+                <div id="vector-right">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/b6oTI_k6TFU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="iframe-yt"></iframe>
+                    <img src="assets/img/HomePage/Vector-right.png" alt="" />
+                </div>
+                <div id="group30"><img src="assets/img/HomePage/Group 30.png" alt="" /></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==============About Us============== -->
+    <section>
+        <div class="header" style="display: flex; margin-bottom: 50px;">
+            <div class="left-aboutteam"></div>
+            <h2>About Team</h2>
+            <div class="right-aboutteam"></div>
+        </div>
+
+        <div class="row">
+            <div class="left-content col-lg-6 col-sm-12">
+                <p>ITS' Robot with Intellegence System, or known as IRIS is Institut Teknologi Sepuluh Nopember (ITS)
+                    Robotic team focusing on autonomous soccer playing robots. Since it’s development in 2014, IRIS ITS
+                    has competed in the soccer robotic league since 2017 and managed to get a lot of achivements. The
+                    team consist of students of Institut Teknologi Sepuluh Nopember Surabaya. To build a great team and
+                    a robot that is capable of playing football, the team is divided into 4 divisions which are
+                    mechanical division, electrical division, programming division, and official division.</p>
+            </div>
+            <div class="col-lg-6 right-content col-sm-12">
+                <h1>What is</h1>
+                <h1>IRIS?</h1>
+                <div class="pict">
+                    <img src="assets/img/Home/About Team/robo.png" alt="" class="robo">
+                    <img src="assets/img/Home/About Team/roda.png" alt="" class="roda">
+                    <img src="assets/img/Home/About Team/Vector.png" alt="" class="vector">
                 </div>
             </div>
-        </nav>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="assets/script/script.js"></script>
+        </div>
+    </section>
+
+    <!-- ===carousel=== -->
+    <div class="container-fluid" style="margin-top: 15%">
+        <section class="ftco-section">
+            <div class="d-flex flex-row align-items-center" style="margin-bottom: 100px;">
+                <img src="assets/img/homePage/Vector news.png" width="80%" height="2px">
+                <h3 class="title-leader mx-5">IRIS NEWS</h3>
+                <img src="assets/img/homePage/Vector news 2.png">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="featured-carousel owl-carousel">
+                            <div class="item">
+                                <div class="work">
+                                    <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(assets/img/homePage/73054.png);">
+                                        <a href="#" class="icon d-flex align-items-center justify-content-center">
+                                            <span class="ion-ios-search"></span>
+                                        </a>
+                                    </div>
+                                    <div class="text pt-3 w-100 text-center bg1-carousel">
+                                        <h3><a href="#">FIRA RoboWorldCup 2021</a></h3>
+                                        <span>Coming Soon...</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="work">
+                                    <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(assets/img/homePage/DSC07854.png);">
+                                        <a href="#" class="icon d-flex align-items-center justify-content-center">
+                                            <span class="ion-ios-search"></span>
+                                        </a>
+                                    </div>
+                                    <div class="text pt-3 w-100 text-center bg2-carousel">
+                                        <h3><a href="#">Robocup 2021</a></h3>
+                                        <span>Sixth Place Technical Challenge RoboCup</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="work">
+                                    <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(assets/img/homePage/DSC08072.png);">
+                                        <a href="#" class="icon d-flex align-items-center justify-content-center">
+                                            <span class="ion-ios-search"></span>
+                                        </a>
+                                    </div>
+                                    <div class="text pt-3 w-100 text-center bg1-carousel">
+                                        <h3><a href="#">KRI 2021</a></h3>
+                                        <span>Second Place on "KRBI Regional II"</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="item">
+                                <div class="work">
+                                    <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/work-4.jpg);">
+                                        <a href="#" class="icon d-flex align-items-center justify-content-center">
+                                            <span class="ion-ios-search"></span>
+                                        </a>
+                                    </div>
+                                    <div class="text pt-3 w-100 text-center bg2-carousel">
+                                        <h3><a href="#">???</a></h3>
+                                        <span>???</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="work">
+                                    <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/work-5.jpg);">
+                                        <a href="#" class="icon d-flex align-items-center justify-content-center">
+                                            <span class="ion-ios-search"></span>
+                                        </a>
+                                    </div>
+                                    <div class="text pt-3 w-100 text-center bg1-carousel">
+                                        <h3><a href="#">???</a></h3>
+                                        <span>???</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="work">
+                                    <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/work-6.jpg);">
+                                        <a href="#" class="icon d-flex align-items-center justify-content-center">
+                                            <span class="ion-ios-search"></span>
+                                        </a>
+                                    </div>
+                                    <div class="text pt-3 w-100 text-center">
+                                        <h3><a href="#">???</a></h3>
+                                        <span>???</span>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <section style="margin-top: 15%">
+        <div class="header">
+            <div class="col-lg-8 w-content">
+                <h3 class="d-flex justify-content-end align-items-center">behind the wheel of IRIS</h3>
+            </div>
+            <div class="col-lg-1 d-flex align-items-center justify-content-end">
+                <img src="assets/img/team/strip2.png" alt="" class="strip2 w-75" style="height: 1px">
+                <img src="assets/img/team/divs.png" alt="">
+            </div>
+        </div>
+
+        <div class="container" style="background-color: #f7f6f6;">
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 revealtoRight justify-content-center align-items-center d-flex"
+                    style="margin-bottom: 10px">
+                    <a href="./Team.html#electrical">
+                        <div class="cards p-0">
+                            <div class="cards-image"> <img src="assets/img/divs/Electrical.png" alt="..."> </div>
+                            <div class="cards-content d-flex flex-column align-items-center">
+                                <h4 class="pt-2">Electrical</h4>
+                                <h5 style="color: #000">The Electrical Division is responsible to determine and take
+                                    control
+                                    on the
+                                    electrical system of our
+                                    robots.</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-12 revealtoRight justify-content-center align-items-center d-flex"
+                    style="margin-bottom: 10px">
+                    <a href="./Team.html#mechanical">
+                        <div class="cards p-0">
+                            <div class="cards-image"> <img src="assets/img/divs/Mechanical.png" alt="..."> </div>
+                            <div class="cards-content d-flex flex-column align-items-center">
+                                <h4 class="pt-2">Mechanical</h4>
+                                <h5 style="color: #000">The mechanic division is responsible on manufacturing robots,
+                                    designing robot’s
+                                    body
+                                    shape and even
+                                    assembling it.</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-12 revealtoLeft justify-content-center align-items-center d-flex"
+                    style="margin-bottom: 10px">
+                    <a href="./Team.html#programming">
+                        <div class="cards p-0">
+                            <div class="cards-image"> <img src="assets/img/divs/Programming.png" alt="..."> </div>
+                            <div class="cards-content d-flex flex-column align-items-center">
+                                <h4 class="pt-2">Programming</h4>
+                                <h5 style="color: #000">The Programming Division is responsible to make a perfect
+                                    robots, we
+                                    need to
+                                    create
+                                    a complex code on
+                                    it. And it's programming division turn to take part.</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-12 revealtoLeft justify-content-center align-items-center d-flex"
+                    style="margin-bottom: 10px">
+                    <a href="./Team.html#official"></a>
+                    <div class="cards p-0">
+                        <div class="cards-image"> <img src="assets/img/divs/Official.png" alt="..."> </div>
+                        <div class="cards-content d-flex flex-column align-items-center">
+                            <h4 class="pt-2">Official</h4>
+                            <h5 style="color: #000">The official division is a division that do all administrative task,
+                                such as
+                                finance, sponsorship,
+                                branding and arrange the accomodation of our team during competition
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- u can contact us -->
+    <div class="text-center cta-area2 margin-top">
+        <p class="p-contact">For Further Information</p>
+        <h2 class="h2-contact">You Can Contact Us On</h2>
+        <a href="./contact-us.html" class="button strip" style="text-decoration: none;">Click Here!!</a>
+    </div>
+
+    <!-- ============Contact Us================= -->
+    <section class="section-margin  toTop">
+        <div class="container-fluid" style="background: rgba(109, 220, 207, 1)">
+            <div class="row p-5">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column align-self-center toRightOnScroll">
+                    <h1 style="color: #fff" class="contact-us-footer-title">Contact Us!</h1>
+                    <h4 class="contact-us-footer-content">Laboratorium Workshop, Lantai II, Pusat Robotika ITSJl.
+                        Teknik Kimia, Kampus ITS Sukolilo, Surabaya, 60111+62
+                        822-3010-4565iris@its.ac.id</h4>
+
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 toLeftOnScroll">
+                    <div class="d-none d-sm-block mb-5 pb-4">
+                        <div id="map" style="height: 480px;"></div>
+                        <script>
+                            function initMap() {
+                                var uluru = { lat: -7.277379, lng: 112.798304 };
+                                var map = new google.maps.Map(document.getElementById('map'), {
+                                    zoom: 17,
+                                    center: uluru,
+                                });
+                                var contentString = '<div>' +
+                                    '<div>' +
+                                    '</div>' +
+                                    '<h5>Sekretariat Robotika ITS</h5>' +
+                                    '<div style="font-size:16px">' +
+                                    '<p>Jl. Teknik Kimia, Kampus ITS<br>' +
+                                    'Sukolilo, Surabaya</p>' +
+                                    '</div>' +
+                                    '</div>';
+
+                                var infowindow = new google.maps.InfoWindow({
+                                    content: contentString,
+                                });
+
+                                var marker = new google.maps.Marker({
+                                    position: uluru,
+                                    map: map,
+                                    title: 'Robotika ITS'
+                                });
+                                infowindow.open(map, marker);
+                                marker.addListener('click', function () {
+                                    infowindow.open(map, marker);
+                                });
+                            }
+
+                        </script>
+                        <script
+                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAc6pcTINhSJDXqrJ_09vrYkTZTKX0_y5c&amp;callback=initMap"></script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer style="background: rgba(232, 225, 240, 1);" class="py-4">
+
+        <div class="row">
+            <div class="col-6 d-flex justify-content-center align-items-center">
+                <p style="font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 10.613px;
+                        line-height: 13px;
+                        color: #333333;"> Copyright &copy;
+                    <script>document.write(new Date().getFullYear())</script> IRIS ITS
+                </p>
+            </div>
+            <div class="col-6 d-flex">
+                <a href="https://www.instagram.com/iris.itsrobotic/"><img src="assets/img/footer/ig.png" alt=""
+                        class="mx-1"></a>
+                <a href="mailto:iris.krsbi@gmail.com"><img src="assets/img/footer/gmail.png" alt="" class="mx-1"></a>
+                <a href="https://www.linkedin.com/company/iris-its/mycompany/"><img src="assets/img/footer/in.png"
+                        alt="" class="mx-1"></a>
+                <a href="https://www.youtube.com/channel/UCOmBeTiru1hFtOiGXneI_Gw"><img src="assets/img/footer/yt.png"
+                        alt="" class="mx-1"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/script/script.js"></script>
+    <script src="assets/script/jquery.min.js"></script>
+    <script src="assets/script/popper.js"></script>
+    <script src="assets/script/bootstrap.min.js"></script>
+    <script src="assets/script/owl.carousel.min.js"></script>
+    <script src="assets/script/main.js"></script>
 </body>
 
 </html>
