@@ -1600,6 +1600,7 @@ body {
   position: absolute;
   right: 70px;
   top: 70px;
+  z-index: 4;
   /* bottom: 0px; */
   /* background: url(assets/Asset\ 3.png);
   background-repeat: no-repeat; */
@@ -1609,6 +1610,7 @@ body {
   position: absolute;
   right: 180.8px;
   bottom: -390px;
+  z-index: 5;
   /* left: 14.08%;
   right: 3.08%;
   top: 35.86%;
@@ -1622,10 +1624,11 @@ body {
   position: absolute;
   bottom: -340px;
   right: 250px;
+  z-index: 3;
   /* max-width: 200px; */
   /* background: url(assets/Asset\ 4.png);
   background-repeat: no-repeat; */
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 #asset4 img {
@@ -1636,13 +1639,14 @@ body {
   position: absolute;
   bottom: -320px;
   right: 280px;
+  z-index: 3;
   /* left: 9.98%;
   right: 72.09%;
   top: 32.37%;
   bottom: 19.78%; */
   /* background: url(assets/Vector.png);
   background-repeat: no-repeat; */
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 #group1 {
@@ -1652,6 +1656,7 @@ body {
   top: 29%; */
   right: 400px;
   bottom: -370px;
+  z-index: 6;
 }
 
 #grid2 {
@@ -1711,6 +1716,7 @@ body {
 .iframe-yt {
   position: absolute;
   top: -230px;
+  border-radius: 2%;
 }
 
 .left-aboutteam {
@@ -10418,4 +10424,134 @@ a.text-dark:hover, a.text-dark:focus {
 
 .bg2-carousel {
   background: rgba(67, 146, 241, 1);
+}
+
+/* ====================Whats iris on rn=================== */
+#iris-news h2::after {
+  content: "";
+  position: relative;
+  border-bottom: 6px solid black;
+  width: 100%;
+  display: block;
+  bottom: 25px;
+}
+
+#on-event {
+  position: relative;
+  background: #151131;
+  padding: 20px;
+}
+div.event-text {
+  position: relative;
+}
+.event-text h2 {
+  color: #151131;
+  font-size: 90px;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: rgba(109, 220, 207, 1);
+  z-index: 4 !important;
+  /* text-shadow: -1px 1px 0 white, 1px 1px 0 white, 1px -1px 0 white,
+    -1px -1px 0 white; */
+}
+#event-special2 {
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  position: relative;
+  right: -160px;
+  display: inline-block;
+}
+.special-img {
+  position: relative;
+}
+.special-img-1 {
+}
+.special-img-2 {
+  left: 30px;
+}
+.special-img-3 {
+  left: 90px;
+}
+.special-img-4 {
+  left: 105px;
+}
+.special-img-5 {
+  left: 290px;
+}
+
+p#event-text-text {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  color: white;
+  font-family: Montserrat;
+  font-size: 20px;
+  padding-top: 50px;
+}
+#event-special {
+  -webkit-text-stroke: 1px;
+  font-size: 90px;
+  position: absolute;
+  top: 10px;
+  left: 300px;
+  /* font-family: Montserrat; */
+  font-style: normal;
+  /* font-weight: bold; */
+  /* font-size: 72px; */
+  /* line-height: 88px; */
+  /* identical to box height */
+  color: #e8e1f0;
+  z-index:-1;
+}
+/* Responsive Query */
+@media screen and (max-width: 992px) {
+  a.nav-link {
+    background: linear-gradient(90deg, #120d31 0%, #6ddccf 100%);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #jumbotron {
+    height: 1222px;
+  }
+  #vector-right {
+    display: none;
+  }
+  #team-text2 {
+    display: none;
+  }
+  #iris-news h2::before {
+    margin-left: 55%;
+  }
+  p#event-text-text {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #group30 {
+    top: 500px;
+  }
+  #about-team h2::before {
+    margin-left: 25%;
+  }
+  div.about-team-text p {
+    width: 100%;
+  }
+  #team-text {
+    width: 100%;
+  }
+  #iris-news h2::before {
+    margin-left: 25%;
+  }
+}
+.card {
+  margin: auto;
+}
+
+/* clearfix */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
