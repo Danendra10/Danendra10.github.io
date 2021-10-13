@@ -18,7 +18,93 @@
 </head>
 
 <body onload="rightAnimate(); topAnimate(); leftAnimate(); spin(); spinStick(); fade()">
-    <div class="container-fluid headContent">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="assets/img/Logo/navbar.png" style="margin-left: 50px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+  
+          </button>
+          <div class="d-flex" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./publication.html">Publications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./achivement.html" role="button">
+                  Achivements
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Competitions
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li>
+                      <a class="dropdown-item" target="_blank" href="https://kontesrobotindonesia.id/index.html">KRI</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li>
+                      <a class="dropdown-item" target="_blank" href="https://www.robocup.org/">Robocup</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li>
+                      <a class="dropdown-item" target="_blank" href="https://firaworldcup.org/">FIRA Roboworld Cup</a>
+                  </li>
+                </ul>
+              </li>
+  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  History
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="./coming-soon.html">Team</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="./coming-soon.html">Robots</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle currentPage" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Find Out
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="./coming-soon.html">IRIS Edu</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="./coming-soon.html">IRIS News</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="./ourTeam.html">Our Team</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="./ContactUs.html">Contact Us</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="container-fluid headContent"  style="margin-top: 5%">
         <div class="d-flex flex-row top-team align-items-center toRight">
             <img src="assets/img/team/strip1.png" alt="" class="strip1">
             <img src="assets/img/team/its.png" alt="" class="header-team-elem">
@@ -50,7 +136,7 @@
         </div>
     </div>
     <!-- Leader of Iris -->
-    <div class="container-fluid">
+    <div class="container-fluid" >
         <div class="d-flex flex-row align-items-center">
             <div class="strip-team1"></div>
             <h3 class="title-leader mx-5">Team Leader</h3>
