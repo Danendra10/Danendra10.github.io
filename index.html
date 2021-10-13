@@ -21,7 +21,7 @@
     <title>IRIS ITS || Achivements</title>
 </head>
 
-<body style="overflow-x: hidden; width: auto">
+<body style="overflow-x: hidden; width: auto" onload="rightAnimate(); topAnimate(); leftAnimate(); spin(); spinStick(); fade(); spinFromLeft()">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -114,22 +114,22 @@
     <div class="container-fluid" style="height: 100%; ">
         <div class="row" style="margin-top: 20%">
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" id="grid1">
-                <div id="group28"><img src="assets/img/HomePage/Group 28.png" alt="" /></div>
-                <div id="asset3"><img src="assets/img/HomePage/Asset 3.png" alt="" /></div>
-                <div id="vector"><img src="assets/img/HomePage/Vector.png" alt="" /></div>
-                <div id="asset4"><img src="assets/img/HomePage/Asset 4.png" alt="" /></div>
-                <div id="vector2"><img src="assets/img/HomePage/Vector.png" alt="" /></div>
-                <div id="group1"><img src="assets/img/HomePage/Group 1.png" alt="" /></div>
+                <div id="group28"><img src="assets/img/HomePage/Group 28.png" alt="" class="spinStick"/></div>
+                <div id="asset3"><img src="assets/img/HomePage/Asset 3.png" alt="" class="toRight"/></div>
+                <div id="vector"><img src="assets/img/HomePage/Vector.png" alt="" class="fade"/></div>
+                <div id="asset4"><img src="assets/img/HomePage/Asset 4.png" alt="" class="fade"/></div>
+                <div id="vector2"><img src="assets/img/HomePage/Vector.png" alt="" class="fade"/></div>
+                <div id="group1"><img src="assets/img/HomePage/Group 1.png" alt="" class="spinStick"/></div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" id="grid2">
-                <div id="vector-right">
+                <div id="vector-right" class="fade">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/b6oTI_k6TFU"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen class="iframe-yt"></iframe>
                     <img src="assets/img/HomePage/Vector-right.png" alt="" />
                 </div>
-                <div id="group30"><img src="assets/img/HomePage/Group 30.png" alt="" /></div>
+                <div id="group30"><img src="assets/img/HomePage/Group 30.png" alt="" class="fade"/></div>
             </div>
         </div>
     </div>
@@ -177,7 +177,8 @@
                         <div class="featured-carousel owl-carousel">
                             <div class="item">
                                 <div class="work">
-                                    <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(assets/img/homePage/73054.png);">
+                                    <div class="img d-flex align-items-center justify-content-center rounded"
+                                        style="background-image: url(assets/img/homePage/73054.png);">
                                         <a href="#" class="icon d-flex align-items-center justify-content-center">
                                             <span class="ion-ios-search"></span>
                                         </a>
@@ -190,7 +191,8 @@
                             </div>
                             <div class="item">
                                 <div class="work">
-                                    <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(assets/img/homePage/DSC07854.png);">
+                                    <div class="img d-flex align-items-center justify-content-center rounded"
+                                        style="background-image: url(assets/img/homePage/DSC07854.png);">
                                         <a href="#" class="icon d-flex align-items-center justify-content-center">
                                             <span class="ion-ios-search"></span>
                                         </a>
@@ -203,7 +205,8 @@
                             </div>
                             <div class="item">
                                 <div class="work">
-                                    <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(assets/img/homePage/DSC08072.png);">
+                                    <div class="img d-flex align-items-center justify-content-center rounded"
+                                        style="background-image: url(assets/img/homePage/DSC08072.png);">
                                         <a href="#" class="icon d-flex align-items-center justify-content-center">
                                             <span class="ion-ios-search"></span>
                                         </a>
@@ -216,18 +219,18 @@
                             </div>
                             <!-- <div class="item">
                                 <div class="work">
-                                    <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/work-4.jpg);">
+                                    <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(assets/img/homePage/73055.jpg);">
                                         <a href="#" class="icon d-flex align-items-center justify-content-center">
                                             <span class="ion-ios-search"></span>
                                         </a>
                                     </div>
                                     <div class="text pt-3 w-100 text-center bg2-carousel">
-                                        <h3><a href="#">???</a></h3>
-                                        <span>???</span>
+                                        <h3><a href="#">FIRA RoboWorldCup 2018</a></h3>
+                                        <span>Sixth Place Technical Challenge RoboCup</span>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item">
+                            </div>                             -->
+                            <!-- <div class="item">
                                 <div class="work">
                                     <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/work-5.jpg);">
                                         <a href="#" class="icon d-flex align-items-center justify-content-center">
@@ -262,50 +265,34 @@
 
     <div id="on-event" class="container-fluid">
         <div class="row">
-          <div class="col-xl-7">
-            <div class="event-text container">
-              <h2>What IRIS on right now?</h2>
-              <h2 id="event-special">IRIS on</h2>
+            <div class="col-xl-7">
+                <div class="event-text container">
+                    <h2>What IRIS on right now?</h2>
+                    <h2 id="event-special">IRIS on</h2>
+                </div>
+                <div class="container">
+                    <img class="special-img special-img-1" src="assets/img/assets3/Vector.png" alt="" />
+                    <img class="special-img special-img-2" src="assets/img/assets3/Vector.png" alt="" />
+                    <img class="special-img special-img-3" src="assets/img/assets3/Vector-1.png" alt="" />
+                    <img class="special-img special-img-4" src="assets/img/assets3/Vector.png" alt="" />
+                    <p id="event-special2">On Going Event</p>
+                    <img class="special-img special-img-5" src="assets/img/assets3/Vector.png" alt="" />
+                </div>
             </div>
-            <div class="container">
-              <img
-                class="special-img special-img-1"
-                src="assets/assets3/Vector.png"
-                alt=""
-              />
-              <img
-                class="special-img special-img-2"
-                src="assets/assets3/Vector.png"
-                alt=""
-              />
-              <img
-                class="special-img special-img-3"
-                src="assets/assets3/Vector-1.png"
-                alt=""
-              />
-              <img
-                class="special-img special-img-4"
-                src="assets/assets3/Vector.png"
-                alt=""
-              />
-              <p id="event-special2">On Going Event</p>
-              <img
-                class="special-img special-img-5"
-                src="assets/assets3/Vector.png"
-                alt=""
-              />
+            <div class="col-xl-5">
+                <p id="event-text-text">
+                    Kontes Robot Indonesia (KRI) adalah kegiatan kompetisi rancang bangun dan rekayasa dalam bidang
+                    robotika tahunan bagi mahasiswa dari perguruan tinggi negeri dan swasta di Tanah Air yang
+                    diselenggarakan oleh Pusat Prestasi Nasional Kementerian Pendidikan, Kebudayaan, Riset, dan
+                    Teknologi. Tim IRIS ITS sendiri akan bertanding dalam divisi KRSBI Beroda. KRI 2021 diadakan secara
+                    pertahap yakni seleksi proposal dan yang lolos akan maju seleksi di tingkat wilayah setelah itu
+                    masuk ke KRI tingkat nasional. Tahun ini IRIS berhasil meraih gelar juara peringkat 2 pada KRSBI
+                    Beroda dan siap berlaga dalam KRI 2021 tingkat nasional pada bulan oktober ini. Info selengkapnya
+                    dapat mengunjungi Instagram @iris.itsrobotic.
+                </p>
             </div>
-          </div>
-          <div class="col-xl-5">
-            <p id="event-text-text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip
-            </p>
-          </div>
         </div>
-      </div>
+    </div>
     <section style="margin-top: 15%">
         <div class="header">
             <div class="col-lg-12 w-content">
