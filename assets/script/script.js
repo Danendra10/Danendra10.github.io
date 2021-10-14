@@ -163,3 +163,23 @@ function toFadeOnScroll() {
     }
   }
 }
+
+window.addEventListener('scroll', toSpinOnScroll);
+
+function toSpinOnScroll() {
+  var revealComponent = document.querySelectorAll('.toSpinOnScroll');
+
+  for (var i = 0; i < revealComponent.length; i++) {
+    var winHeight = window.innerHeight;
+    // console.log(winHeight);
+    var revealTop = revealComponent[i].getBoundingClientRect().top;
+    var pointOfReveal = 190;
+
+    if (revealTop < winHeight - pointOfReveal) {
+      revealComponent[i].classList.add('active')
+    }
+    else {
+      revealComponent[i].classList.remove('active')
+    }
+  }
+}

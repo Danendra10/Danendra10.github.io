@@ -21,19 +21,18 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-              <img src="assets/img/Logo/navbar.png" style="margin-left: 50px">
+            <img src="assets/img/Logo/navbar.png" style="margin-left: 50px">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="d-flex" id="navbarScroll">
+          <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./publication.html">Publications</a>
+                <a class="nav-link " aria-current="page" href="./publication.html">Publications</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./achivement.html" role="button">
@@ -47,22 +46,23 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                   <li>
-                      <a class="dropdown-item" target="_blank" href="https://kontesrobotindonesia.id/index.html">KRI</a>
+                    <a class="dropdown-item" target="_blank" href="https://kontesrobotindonesia.id/index.html">KRI</a>
                   </li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
                   <li>
-                      <a class="dropdown-item" target="_blank" href="https://www.robocup.org/">Robocup</a></li>
+                    <a class="dropdown-item" target="_blank" href="https://www.robocup.org/">Robocup</a>
+                  </li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
                   <li>
-                      <a class="dropdown-item" target="_blank" href="https://firaworldcup.org/">FIRA Roboworld Cup</a>
+                    <a class="dropdown-item" target="_blank" href="https://firaworldcup.org/">FIRA Roboworld Cup</a>
                   </li>
                 </ul>
               </li>
-  
+    
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
                   data-bs-toggle="dropdown" aria-expanded="false">
@@ -77,11 +77,11 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle currentPage" href="#" id="navbarScrollingDropdown" role="button"
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
                   data-bs-toggle="dropdown" aria-expanded="false">
                   Find Out
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <ul class="dropdown-menu currentPage" aria-labelledby="navbarScrollingDropdown">
                   <li><a class="dropdown-item" href="./coming-soon.html">IRIS Edu</a>
                   </li>
                   <li>
@@ -103,7 +103,8 @@
             </ul>
           </div>
         </div>
-    </nav>
+      </nav>
+    
     <div class="container-fluid headContent"  style="margin-top: 5%">
         <div class="d-flex flex-row top-team align-items-center toRight">
             <img src="assets/img/team/strip1.png" alt="" class="strip1">
@@ -113,7 +114,7 @@
         </div>
 
         <div class="row team-head-text d-flex align-items-center">
-            <div class="col-lg-4">
+            <div class="col-lg-4 divs-team">
                 <img src="assets/img/team/round.png" alt="" class="round-team spinStick">
                 <img src="assets/img/team/prog.png" alt="" class="prog-team fade">
                 <img src="assets/img/team/star.png" alt="" class="star-team spinStick">
@@ -121,7 +122,7 @@
                 <img src="assets/img/team/mech.png" alt="" class="mech-team fade">
                 <img src="assets/img/team/ofc.png" alt="" class="ofc-team fade">
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 gettoknow">
                 <h1 style="margin: 200px auto">Get To Know The Team</h1>
                 <div class="row toLeft">
                     <div class="col-lg-11 w-content">
@@ -138,9 +139,9 @@
     <!-- Leader of Iris -->
     <div class="container-fluid" >
         <div class="d-flex flex-row align-items-center">
-            <div class="strip-team1"></div>
-            <h3 class="title-leader mx-5">Team Leader</h3>
-            <div class="strip-team2"></div>
+            <div class="strip-team1 toRightOnScroll"></div>
+            <h3 class="title-leader mx-5 toFadeOnScroll">Team Leader</h3>
+            <div class="strip-team2 toLeftOnScroll"></div>
         </div>
 
         <div class="leader-content revealOnScroll">
@@ -179,10 +180,10 @@
             </div>
         </div>
 
-        <div class="d-flex flex-row align-items-center" style="margin-bottom: 100px;">
-            <div class="strip-team2"></div>
-            <h3 class="title-leader mx-5">Electrical</h3>
-            <div class="strip-team1"></div>
+        <div class="d-flex flex-row align-items-center" style="margin-bottom: 100px;" id="electrical">
+            <div class="strip-team2 toRightOnScroll"></div>
+            <h3 class="title-leader mx-5 toFadeOnScroll">Electrical</h3>
+            <div class="strip-team1 toLeftOnScroll"></div>
         </div>
 
 
@@ -216,8 +217,8 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
-                        <h2 class="flex-column name-card justify-content-center">Zulfiar Ahimsa Mahardika</h2>
+                    <div class="content-text justify-content-center flex-column">
+                        <h2 class=" name-card justify-content-center">Zulfiar Ahimsa Mahardika</h2>
                         <p>Head Chief of Electrical Division at IRIS ITS</p>
                     </div>
                 </div>
@@ -243,7 +244,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Krisna Pramudya Dharma</h2>
                         <p>Electrician at IRIS ITS</p>
                     </div>
@@ -265,7 +266,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Dafarik Fildahni</h2>
                         <p>Electrician at IRIS ITS</p>
                     </div>
@@ -287,7 +288,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Habib Sukma Setia Putra</h2>
                         <p>Electrician at IRIS ITS</p>
                     </div>
@@ -309,7 +310,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Wahyu Sholeh P.</h2>
                         <p>Electrician at IRIS ITS</p>
                     </div>
@@ -331,7 +332,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Hafiz Zain Fahrizal</h2>
                         <p>Electrician at IRIS ITS</p>
                     </div>
@@ -353,7 +354,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Irga Merdiansyah</h2>
                         <p>Electrician at IRIS ITS</p>
                     </div>
@@ -364,10 +365,10 @@
 
         <!-- Mechanical -->
 
-        <div class="d-flex flex-row align-items-center" style="margin-bottom: 100px;">
-            <div class="strip-team1"></div>
-            <h3 class="title-leader mx-5">Mechanical</h3>
-            <div class="strip-team2"></div>
+        <div class="d-flex flex-row align-items-center" style="margin-bottom: 100px;" id="mechanical">
+            <div class="strip-team1 toRightOnScroll"></div>
+            <h3 class="title-leader mx-5 toFadeOnScroll">Mechanical</h3>
+            <div class="strip-team2 toLeftOnScroll"></div>
         </div>
 
         <div class="leader-content revealOnScroll my-5">
@@ -389,7 +390,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Robby Surya Firmansyah</h2>
                         <p>Head Chief of Mechanical Division at IRIS ITS</p>
                     </div>
@@ -422,7 +423,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Cigo Ageng Wicaksono</h2>
                         <p>Mechanician at IRIS ITS</p>
                     </div>
@@ -444,7 +445,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Bhre Satriavi Dentawyanjana</h2>
                         <p>Mechanician at IRIS ITS</p>
                     </div>
@@ -466,7 +467,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Firlana Baiturrochman</h2>
                         <p>Mechanician at IRIS ITS</p>
                     </div>
@@ -488,7 +489,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Ahmad Jawhari Fauzi</h2>
                         <p>Mechanician at IRIS ITS</p>
                     </div>
@@ -510,7 +511,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Muhammad Ali Yafi</h2>
                         <p>Mechanician at IRIS ITS</p>
                     </div>
@@ -532,7 +533,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Abdul Hakim Al-Amin</h2>
                         <p>Mechanician at IRIS ITS</p>
                     </div>
@@ -554,7 +555,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Rokhmat Rizki Permata Putra</h2>
                         <p>Mechanician at IRIS ITS</p>
                     </div>
@@ -570,10 +571,10 @@
 
 
         <!-- Programming -->
-        <div class="d-flex flex-row align-items-center" style="margin-bottom: 100px;">
-            <div class="strip-team2"></div>
-            <h3 class="title-leader mx-5">Programming</h3>
-            <div class="strip-team1"></div>
+        <div class="d-flex flex-row align-items-center" style="margin-bottom: 100px;" id="programming">
+            <div class="strip-team2 toRightOnScroll"></div>
+            <h3 class="title-leader mx-5 toFadeOnScroll">Programming</h3>
+            <div class="strip-team1 toLeftOnScroll"></div>
         </div>
 
         <!-- Prog Leader -->
@@ -596,7 +597,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Banin Fawwaz Hadin</h2>
                         <p>Head Chief of Programming Division at IRIS ITS</p>
                     </div>
@@ -631,7 +632,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Habib Ihza Alamsyah</h2>
                         <p>Programmer at IRIS ITS</p>
                     </div>
@@ -653,7 +654,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Suryo Adiguna</h2>
                         <p>Programmer at IRIS ITS</p>
                     </div>
@@ -675,7 +676,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Taras Genovievo De Yonarosa</h2>
                         <p>Programmer at IRIS ITS</p>
                     </div>
@@ -697,7 +698,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Mohammad Faderik Izzul Haq</h2>
                         <p>Programmer at IRIS ITS</p>
                     </div>
@@ -719,7 +720,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Taufik Hidayat</h2>
                         <p>Programmer at IRIS ITS</p>
                     </div>
@@ -741,7 +742,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Danendra Clevero Ananda</h2>
                         <p>Programmer at IRIS ITS</p>
                     </div>
@@ -763,7 +764,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Ian Gavriel Pakpahan</h2>
                         <p>Programmer at IRIS ITS</p>
                     </div>
@@ -785,7 +786,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Azzam Wildan Maulana</h2>
                         <p>Programmer at IRIS ITS</p>
                     </div>
@@ -807,7 +808,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Ahmad Ferdiansyah Ramadhani</h2>
                         <p>Programmer at IRIS ITS</p>
                     </div>
@@ -817,10 +818,10 @@
 
 
         <!-- Ofc -->
-        <div class="d-flex flex-row align-items-center" style="margin-bottom: 100px;">
-            <div class="strip-team1"></div>
-            <h3 class="title-leader mx-5">Officials</h3>
-            <div class="strip-team2"></div>
+        <div class="d-flex flex-row align-items-center" style="margin-bottom: 100px;" id="official">
+            <div class="strip-team1 toRightOnScroll"></div>
+            <h3 class="title-leader mx-5 toFadeOnScroll">Officials</h3>
+            <div class="strip-team2 toLeftOnScroll"></div>
         </div>
 
         <div class="leader-content revealOnScroll my-5">
@@ -842,13 +843,13 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Nastaura Erina Anistaqouwy</h2>
                         <p>Head Chief of Official Division at IRIS ITS</p>
                     </div>
                 </div>
                 <div
-                    class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-lg-start align-items-md-center d-flex flex-column revealOnScroll text-md-center text-lg-start w-25">
+                    class="col-lg-6 col-sm-12 content-caption justify-content-center align-items-lg-start align-items-md-center align-items-sm-center d-flex flex-column revealOnScroll text-md-center text-lg-start">
                     <p>"The technical team always give their best to run our robots. Together, mechanics, electonics and
                         programmers build a great system to make the robots unbeatable. Here in official, our job is to
                         letting the world know about our robot abilities and support the team in administration and
@@ -878,7 +879,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Marsha Nabilah Wibowo</h2>
                         <p>Official at IRIS ITS</p>
                     </div>
@@ -900,7 +901,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Natasya Septina Arianti</h2>
                         <p>Official at IRIS ITS</p>
                     </div>
@@ -922,7 +923,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Hanif Ariq</h2>
                         <p>Official at IRIS ITS</p>
                     </div>
@@ -944,7 +945,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="content-text justify-content-center text-center flex-column d-flex">
+                    <div class="content-text justify-content-center  flex-column">
                         <h2 class="flex-column name-card justify-content-center">Syaefullah Nurrahman</h2>
                         <p>Official at IRIS ITS</p>
                     </div>

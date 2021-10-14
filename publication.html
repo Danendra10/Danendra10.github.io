@@ -18,92 +18,93 @@
 </head>
 
 <body onload="rightAnimate(); topAnimate(); leftAnimate(); spin(); spinStick(); fade(); spinFromLeft()">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-              <img src="assets/img/Logo/navbar.png" style="margin-left: 50px">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-  
-          </button>
-          <div class="d-flex" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/Logo/navbar.png" style="margin-left: 50px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link currentPage" aria-current="page" href="./publication.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./achivement.html" role="button">
+              Achivements
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Competitions
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li>
+                <a class="dropdown-item" target="_blank" href="https://kontesrobotindonesia.id/index.html">KRI</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link currentPage" aria-current="page" href="./publication.html">Publications</a>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./achivement.html" role="button">
-                  Achivements
-                </a>
+              <li>
+                <a class="dropdown-item" target="_blank" href="https://www.robocup.org/">Robocup</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  Competitions
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li>
-                      <a class="dropdown-item" target="_blank" href="https://kontesrobotindonesia.id/index.html">KRI</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li>
-                      <a class="dropdown-item" target="_blank" href="https://www.robocup.org/">Robocup</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li>
-                      <a class="dropdown-item" target="_blank" href="https://firaworldcup.org/">FIRA Roboworld Cup</a>
-                  </li>
-                </ul>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-  
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  History
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="./coming-soon.html">Team</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="./coming-soon.html">Robots</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  Find Out
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="./coming-soon.html">IRIS Edu</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="./coming-soon.html">IRIS News</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="./ourTeam.html">Our Team</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="./ContactUs.html">Contact Us</a>
-                  </li>
-                </ul>
+              <li>
+                <a class="dropdown-item" target="_blank" href="https://firaworldcup.org/">FIRA Roboworld Cup</a>
               </li>
             </ul>
-          </div>
-        </div>
-      </nav>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              History
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="./coming-soon.html">Team</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="./coming-soon.html">Robots</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Find Out
+            </a>
+            <ul class="dropdown-menu currentPage" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="./coming-soon.html">IRIS Edu</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="./coming-soon.html">IRIS News</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="./ourTeam.html">Our Team</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="./ContactUs.html">Contact Us</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
     <div class="container-fluid" style="margin-top: 5%">
         <div class="header-publication toRight">
             <img src="assets/img/publications/Vectorstrip.png" alt="" class="strip ">
@@ -134,10 +135,10 @@
 
         <div class="team-desc">
             <div class="row">
-                <div class="col-lg-6 d-flex justify-content-start toRightOnScroll">
+                <div class="col-lg-6 col-sm-12 col-md-12 d-flex justify-content-md-center justify-content-sm-center justify-content-lg-start toRightOnScroll">
                     <p>Download the team description paper</p>
                 </div>
-                <div class="col-lg-6 d-flex justify-content-end align-items-center toLeftOnScroll">
+                <div class="col-lg-6 col-sm-12 col-md-12 d-flex justify-content-md-center justify-content-sm-center justify-content-lg-end align-items-center toLeftOnScroll">
                     <a href="" class="button" style="text-decoration: none;">Download</a>
                 </div>
             </div>
@@ -151,50 +152,50 @@
 
         <div class="papers">
             <div class="row">
-                <div class="col-8 d-flex justify-content-start toRightOnScroll">
+                <div class="col-lg-8 col-md-12 col-sm-12 d-flex justify-content-md-center justify-content-sm-center justify-content-lg-start toRightOnScroll">
                     <p>Artificial Neural Network untuk Pengukuran Posisi Bola Menggunakan Kamera Omnidireksional
                         Pada Robot Sepak Bola Beroda.
                         Published in Indonesian Symposium on Robotic Systems and Control - ISRSC 2017, Universitas
                         Pendidikan Indonesia Bandung.
                     </p>
                 </div>
-                <div class="col-4 d-flex justify-content-end align-items-center">
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-md-center justify-content-sm-center justify-content-lg-end align-items-center">
                     <a href="" class="button toLeftOnScroll" style="text-decoration: none;">Download</a>
                 </div>
 
                 <div class="w-100 my-5"></div>
 
-                <div class="col-8 d-flex justify-content-start toRightOnScroll">
+                <div class="col-lg-8 col-md-12 col-sm-12 d-flex justify-content-md-center justify-content-sm-center justify-content-lg-start toRightOnScroll">
                     <p>Penggunaan Kamera Global untuk Menentukan Posisi Robot pada Lapangan.
                         Published in Indonesian Symposium on Robotic Systems and Control - ISRSC 2018, Universitas
                         Muhammadiyah Yogyakarta.
                     </p>
                 </div>
-                <div class="col-4 d-flex justify-content-end align-items-center">
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-md-center justify-content-sm-center justify-content-lg-end align-items-center">
                     <a href="" class="button toLeftOnScroll" style="text-decoration: none;">Download</a>
                 </div>
 
                 <div class="w-100 my-5"></div>
 
-                <div class="col-8 d-flex justify-content-start toRightOnScroll">
+                <div class="col-lg-8 col-md-12 col-sm-12 d-flex justify-content-md-center justify-content-sm-center justify-content-lg-start toRightOnScroll">
                     <p>Dikairono, R., Rachman, A. A., Setiawardhana, Sardjono, T. A., & Purwanto, D. (2017). Motion
                         Planning Simulator for Holonomic Robot Soccer Platform. 2017 International Seminar on
                         Intelligent Technology and Its Applications (ISITIA).
                     </p>
                 </div>
-                <div class="col-4 d-flex justify-content-end align-items-center">
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-md-center justify-content-sm-center justify-content-lg-end align-items-center">
                     <a href="" class="button toLeftOnScroll" style="text-decoration: none;">Download</a>
                 </div>
 
                 <div class="w-100 my-5"></div>
 
-                <div class="col-8 d-flex justify-content-start toRightOnScroll">
+                <div class="col-lg-8 col-md-12 col-sm-12 d-flex justify-content-md-center justify-content-sm-center justify-content-lg-start toRightOnScroll">
                     <p>Setiawardhana, Dikariono, R., Sardjono, T. A., & Purwanto, D. (2017). Visual Ball Tracking and
                         Prediction with Unique Segmented Area on Soccer Robot. 2017 International Seminar on Intelligent
                         Technology and Its Applications (ISITIA).
                     </p>
                 </div>
-                <div class="col-4 d-flex justify-content-end align-items-center">
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-md-center justify-content-sm-center justify-content-lg-end align-items-center">
                     <a href="" class="button toLeftOnScroll" style="text-decoration: none;">Download</a>
                 </div>
             </div>

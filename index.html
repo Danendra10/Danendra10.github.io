@@ -21,16 +21,27 @@
     <title>IRIS ITS || Achivements</title>
 </head>
 
-<body style="overflow-x: hidden; width: auto" onload="rightAnimate(); topAnimate(); leftAnimate(); spin(); spinStick(); fade(); spinFromLeft()">
+<body style="overflow-x: hidden; " onload="rightAnimate(); topAnimate(); leftAnimate(); spin(); spinStick(); fade(); spinFromLeft()">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/Logo/navbar.png" style="margin-left: 50px">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+        </button>   
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
 
-            </button>
+            </button> -->
             <div class="d-flex" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                     <li class="nav-item">
@@ -111,7 +122,8 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid" style="height: 100%; ">
+    
+    <div class="container" style="height: 100%; ">
         <div class="row" style="margin-top: 20%">
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" id="grid1">
                 <div id="group28"><img src="assets/img/HomePage/Group 28.png" alt="" class="spinStick"/></div>
@@ -129,7 +141,12 @@
                         allowfullscreen class="iframe-yt"></iframe>
                     <img src="assets/img/HomePage/Vector-right.png" alt="" />
                 </div>
-                <div id="group30"><img src="assets/img/HomePage/Group 30.png" alt="" class="fade"/></div>
+                <div class="d-flex fade" id="group30">
+                    <a href=""><img src="assets/img/HomePage/ig.png" class="mx-2" alt=""></a>
+                    <a href=""><img src="assets/img/HomePage/gm.png" class="mx-2" alt=""></a>
+                    <a href=""><img src="assets/img/HomePage/in.png" class="mx-2" alt=""></a>
+                    <a href=""><img src="assets/img/HomePage/yt.png" class="mx-2" alt=""></a>
+                </div>
             </div>
         </div>
     </div>
@@ -137,13 +154,13 @@
     <!-- ==============About Us============== -->
     <section style="overflow-x: hidden; height: 100%">
         <div class="header" style="display: flex; margin-bottom: 50px;">
-            <div class="left-aboutteam"></div>
-            <h2>About Team</h2>
-            <div class="right-aboutteam"></div>
+            <div class="left-aboutteam toRightOnScroll"></div>
+            <h2 class="mx-5 toFadeOnScroll">About Team</h2>
+            <div class="right-aboutteam toLeftOnScroll"></div>
         </div>
 
         <div class="row">
-            <div class="left-content col-lg-6 col-sm-12">
+            <div class="left-content col-lg-6 col-sm-12 col-md-12 toFadeOnScroll">
                 <p>ITS' Robot with Intellegence System, or known as IRIS is Institut Teknologi Sepuluh Nopember (ITS)
                     Robotic team focusing on autonomous soccer playing robots. Since it’s development in 2014, IRIS ITS
                     has competed in the soccer robotic league since 2017 and managed to get a lot of achivements. The
@@ -151,13 +168,13 @@
                     a robot that is capable of playing football, the team is divided into 4 divisions which are
                     mechanical division, electrical division, programming division, and official division.</p>
             </div>
-            <div class="col-lg-6 right-content col-sm-12">
+            <div class="col-lg-6 right-content col-sm-12 col-md-12 toFadeOnScroll">
                 <h1>What is</h1>
                 <h1>IRIS?</h1>
                 <div class="pict">
-                    <img src="assets/img/Home/About Team/robo.png" alt="" class="robo">
-                    <img src="assets/img/Home/About Team/roda.png" alt="" class="roda">
-                    <img src="assets/img/Home/About Team/Vector.png" alt="" class="vector">
+                    <img src="assets/img/Home/About Team/robo.png" alt="" class="robo toLeftOnScroll">
+                    <img src="assets/img/Home/About Team/roda.png" alt="" class="roda toSpinOnScroll">
+                    <img src="assets/img/Home/About Team/Vector.png" alt="" class="vector toLeftOnScroll">
                 </div>
             </div>
         </div>
@@ -167,12 +184,12 @@
     <div class="container-fluid" style="margin-top: 5%">
         <section class="ftco-section">
             <div class="d-flex flex-row align-items-center" style="margin-bottom: 100px;">
-                <img src="assets/img/homePage/Vector news.png" width="80%" height="2px">
-                <h3 class="title-leader mx-5">IRIS NEWS</h3>
-                <img src="assets/img/homePage/Vector news 2.png">
+                <img src="assets/img/homePage/Vector news.png" width="80%" height="2px" class=" toRightOnScroll">
+                <h3 class="title-leader mx-5 toFadeOnScroll">IRIS NEWS</h3>
+                <img src="assets/img/homePage/Vector news 2.png" class=" toLeftOnScroll">
             </div>
             <div class="container">
-                <div class="row">
+                <div class="row toFadeOnScroll">
                     <div class="col-md-12">
                         <div class="featured-carousel owl-carousel">
                             <div class="item">
@@ -308,9 +325,9 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-12 revealtoRight justify-content-center align-items-center d-flex"
                     style="margin-bottom: 10px">
-                    <a href="./Team.html#electrical">
+                    <a href="./ourTeam.html#electrical">
                         <div class="cards p-0">
-                            <div class="cards-image"> <img src="assets/img/divs/Electrical.png" alt="..."> </div>
+                            <div class="cards-image"> <img src="assets/img/divs/Electrical.png" alt="..." class="toSpinOnScroll"> </div>
                             <div class="cards-content d-flex flex-column align-items-center">
                                 <h4 class="pt-2">Electrical</h4>
                                 <h5 style="color: #000">The Electrical Division is responsible to determine and take
@@ -324,9 +341,9 @@
                 </div>
                 <div class="col-lg-3 col-sm-12 revealtoRight justify-content-center align-items-center d-flex"
                     style="margin-bottom: 10px">
-                    <a href="./Team.html#mechanical">
+                    <a href="./ourTeam.html#mechanical">
                         <div class="cards p-0">
-                            <div class="cards-image"> <img src="assets/img/divs/Mechanical.png" alt="..."> </div>
+                            <div class="cards-image"> <img src="assets/img/divs/Mechanical.png" alt="..." class="toSpinOnScroll"> </div>
                             <div class="cards-content d-flex flex-column align-items-center">
                                 <h4 class="pt-2">Mechanical</h4>
                                 <h5 style="color: #000">The mechanic division is responsible on manufacturing robots,
@@ -340,9 +357,9 @@
                 </div>
                 <div class="col-lg-3 col-sm-12 revealtoLeft justify-content-center align-items-center d-flex"
                     style="margin-bottom: 10px">
-                    <a href="./Team.html#programming">
+                    <a href="./ourTeam.html#programming">
                         <div class="cards p-0">
-                            <div class="cards-image"> <img src="assets/img/divs/Programming.png" alt="..."> </div>
+                            <div class="cards-image"> <img src="assets/img/divs/Programming.png" alt="..." class="toFadeOnScroll"> </div>
                             <div class="cards-content d-flex flex-column align-items-center">
                                 <h4 class="pt-2">Programming</h4>
                                 <h5 style="color: #000">The Programming Division is responsible to make a perfect
@@ -357,9 +374,9 @@
                 </div>
                 <div class="col-lg-3 col-sm-12 revealtoLeft justify-content-center align-items-center d-flex"
                     style="margin-bottom: 10px">
-                    <a href="./Team.html#official"></a>
+                    <a href="./ourTeam.html#official">
                     <div class="cards p-0">
-                        <div class="cards-image"> <img src="assets/img/divs/Official.png" alt="..."> </div>
+                        <div class="cards-image"> <img src="assets/img/divs/Official.png" alt="..." class="toSpinOnScroll"> </div>
                         <div class="cards-content d-flex flex-column align-items-center">
                             <h4 class="pt-2">Official</h4>
                             <h5 style="color: #000">The official division is a division that do all administrative task,
@@ -369,6 +386,7 @@
                             </h5>
                         </div>
                     </div>
+                </a>
                 </div>
             </div>
         </div>
