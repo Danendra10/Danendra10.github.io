@@ -137,6 +137,7 @@ function toLeftOnScroll() {
 
     if (revealTop < winHeight - pointOfReveal) {
       revealComponent[i].classList.add('active')
+      revealComponent[i].classList.add('display')
     }
     else {
       revealComponent[i].classList.remove('active')
