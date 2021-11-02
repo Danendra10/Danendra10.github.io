@@ -2920,6 +2920,39 @@ p#event-text-text {
   p#event-text-text{
     font-size: 11px;
   }
+  .iris-news-head > .left{
+    width: 15%;
+  }
+  .left-content{
+    wiodth: 375px!important;
+  }
+  .robo{
+    left: 49.24%;
+    right: -3.72%;
+    top: 9.5%;
+    bottom: 7.81%;
+    width: 236px;
+  }
+  .roda{
+    left: 29.12%;
+    right: 19.86%;
+    top: 241px;
+    bottom: -144.11%;
+    width: 131px;
+  }
+  .vector{
+    left: 20.08%;
+    right: 30%;
+    top: 306.61px;
+    bottom: -50.25%;
+    width: 341px;
+  }
+  #about-us-section{
+    
+  }
+  .mt-70{
+    margin-top: 70%!important;
+  }
 }
 .navbar-collapse{
   flex-grow: 0!important;
