@@ -875,7 +875,7 @@ body {
   }
 
   .header-publication .strip {
-    width: 65%;
+    width: 63%;
   }
 }
 
@@ -2766,8 +2766,8 @@ p#event-text-text {
   }
 }
 .iframe-yt {
-  width: 560px!important;
-  height: 315px!important;
+  width: 560px;
+  height: 315px;
   position: absolute;
   top: -230px;
   border-radius: 2%;
@@ -2798,7 +2798,10 @@ p#event-text-text {
     line-height: 40px;
   }
   .team-desc p{
-    line-height: 70px;
+    line-height: 50px;
+  }
+  .team-desc{
+    margin: 80px 10px!important;
   }
   .achivement-top-content{
     overflow-x: hidden;
@@ -2818,6 +2821,16 @@ p#event-text-text {
   }
   .timeline .date-info .day{
     font-size: 50px;
+  }
+  .iframe-yt {
+    width: 608px!important;
+    height: 316px!important;
+    position: absolute;
+    top: -230px;
+    border-radius: 2%;
+  }
+  .publ h1{
+    font-size: 85px!important;
   }
 }
 .navbar-collapse{
