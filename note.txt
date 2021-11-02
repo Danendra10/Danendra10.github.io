@@ -144,3 +144,134 @@ bagian fix publications di publication.html
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <section class="section-spacing text-center" id="features">
+        <div class="container">
+           <div class="container-fluid">
+              <div class="row">
+                 <div class="col-md-12">
+                    <ul class="timeline">
+                       <li class="timeline wow bounceInUp">
+                          <div class="timeline-badge warning"><i class="fa fa-bullseye"></i></div>
+                          <div class="date-info">
+                             <span class="day">2017</span>
+                          </div>
+                          <div class="timeline-panel">
+                             <div class="timeline-heading">
+                                <h6 class="timeline-title">3rd Place on "KRSBI Regional IV"</h6>
+                             </div>
+                          </div>
+                       </li>
+                       <li class="timeline wow bounceInUp">
+                        <div class="timeline-badge warning"><i class="fa fa-bullseye"></i></div>
+                        <!-- <div class="date-info">
+                           <span class="day">2017</span>
+                        </div> -->
+                        <div class="timeline-panel">
+                           <div class="timeline-heading">
+                              <h6 class="timeline-title">Best Robot Design in “KRSBI Regional IV”</h6>
+                           </div>
+                        </div>
+                     </li>
+                    </ul>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+
+
+     <section class="section-spacing text-center" id="features">
+        <div class="container">
+           <div class="container-fluid">
+              <div class="row">
+                 <div class="col-md-12">
+                    <ul class="timeline">
+                       <li class="timeline wow bounceInUp">
+                          <div class="timeline-badge warning"><i class="fa fa-bullseye"></i></div>
+                          <div class="date-info">
+                             <span class="day">2017</span>
+                          </div>
+                          <div class="timeline-panel">
+                             <div class="timeline-heading">
+                                <h6 class="timeline-title">3rd Place on "KRSBI Regional IV"</h6>
+                             </div>
+                          </div>
+                       </li>
+                       <li class="timeline-inverted wow bounceInUp">
+                          <div class="timeline-badge danger"><i class="fa fa-crosshairs"></i></div>
+                          <div class="date-info">
+                             <span class="day">04</span><span class="month"> Feb</span><span class="year"> 2017</span>
+                          </div>
+                          <div class="timeline-panel">
+                             <div class="timeline-heading">
+                                <h6 class="timeline-title">Version 1.0.2 Released with user identified fixes/enhancements</h6>
+                             </div>
+                             <div class="timeline-body">
+                                <p>
+                                   Release highlights :
+                                   Layout changed inline with other Cartwheel applications. (Menu based and full-screen).
+                                   Introduced filters and sorting of Actions items.
+                                   Print facility to support printing of any saved reports (including previous reports)
+                                </p>
+                             </div>
+                          </div>
+                       </li>
+                       <li class="timeline-inverted wow bounceInUp">
+                          <div class="timeline-badge danger"><i class="fa fa-crosshairs"></i></div>
+                          <div class="date-info">
+                             <span class="day">31</span><span class="month"> Jan</span><span class="year"> 2016</span>
+                          </div>
+                          <div class="timeline-panel">
+                             <div class="timeline-heading">
+                                <h6 class="timeline-title">Version 1.0.2 Released with user identified fixes/enhancements</h6>
+                             </div>
+                             <div class="timeline-body">
+                                <p>
+                                   Release highlights :
+                                   Layout changed inline with other Cartwheel applications. (Menu based and full-screen).
+                                   Introduced filters and sorting of Actions items.
+                                   Print facility to support printing of any saved reports (including previous reports)
+                                </p>
+                             </div>
+                          </div>
+                       </li>
+                       <li class="timeline-inverted wow bounceInUp">
+                          <div class="timeline-badge danger"><i class="fa fa-crosshairs"></i></div>
+                          <div class="date-info">
+                             <span class="day">25</span><span class="month"> Jan</span><span class="year"> 2016</span>
+                          </div>
+                          <div class="timeline-panel">
+                             <div class="timeline-heading">
+                                <h6 class="timeline-title">Version 1.0.2 Released with user identified fixes/enhancements</h6>
+                             </div>
+                             <div class="timeline-body">
+                                <p>
+                                   Release highlights :
+                                   Layout changed inline with other Cartwheel applications. (Menu based and full-screen).
+                                   Introduced filters and sorting of Actions items.
+                                   Print facility to support printing of any saved reports (including previous reports)
+                                </p>
+                             </div>
+                          </div>
+                       </li>
+                    </ul>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
