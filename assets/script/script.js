@@ -113,7 +113,7 @@ function toRightOnScroll() {
     var winHeight = window.innerHeight;
     // console.log(winHeight);
     var revealTop = revealComponent[i].getBoundingClientRect().top;
-    var pointOfReveal = 190;
+    var pointOfReveal = 100;
 
     if (revealTop < winHeight - pointOfReveal) {
       revealComponent[i].classList.add('active')
@@ -133,7 +133,7 @@ function toLeftOnScroll() {
     var winHeight = window.innerHeight;
     // console.log(winHeight);
     var revealTop = revealComponent[i].getBoundingClientRect().top;
-    var pointOfReveal = 190;
+    var pointOfReveal = 100;
 
     if (revealTop < winHeight - pointOfReveal) {
       revealComponent[i].classList.add('active')
@@ -154,7 +154,7 @@ function toFadeOnScroll() {
     var winHeight = window.innerHeight;
     // console.log(winHeight);
     var revealTop = revealComponent[i].getBoundingClientRect().top;
-    var pointOfReveal = 190;
+    var pointOfReveal = 100;
 
     if (revealTop < winHeight - pointOfReveal) {
       revealComponent[i].classList.add('active')
@@ -174,7 +174,7 @@ function toSpinOnScroll() {
     var winHeight = window.innerHeight;
     // console.log(winHeight);
     var revealTop = revealComponent[i].getBoundingClientRect().top;
-    var pointOfReveal = 190;
+    var pointOfReveal = 100;
 
     if (revealTop < winHeight - pointOfReveal) {
       revealComponent[i].classList.add('active')

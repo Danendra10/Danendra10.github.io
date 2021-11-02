@@ -840,7 +840,7 @@ body {
   position: absolute;
   left: 62.4%;
   right: 14.48%;
-  top: 89.03%;
+  top: 108.03%;
   bottom: 7.47%;
 
   transform: scale(1.5);
@@ -2851,14 +2851,22 @@ p#event-text-text {
     margin: 50px auto;
     line-height: 50px;
   }
-  .strip::before{
-    /* top:65%; */
+  .strip{
+    width: 47%!important;
+  }
+  .header-pub-elem{
+    margin: 0 10px !important;
   }
   .publicationLinks h1{
-    line-height: 40px;
+    line-height: 28px;
+  }
+  .paper p{
+    font-size: 16px;
+    line-height: 25px;
   }
   .team-desc p{
-    line-height: 50px;
+    line-height: 37px;
+    font-size: 28px;
   }
   .team-desc{
     margin: 80px 10px!important;
@@ -2892,6 +2900,25 @@ p#event-text-text {
   .publ h1{
     font-size: 38px!important;
     line-height: 56px !important;
+  }
+  .publicationLinks h1{
+    font-size: 20px !important;
+  }
+  .header-publication-links .strip2{
+    width: 33%!important;
+  }
+  .mt-18{
+    margin-top: 18%!important;
+  } 
+  #event-special{
+    top: 113px!important;
+    left: 29px!important;
+  }
+  #event-special2{
+    right: 12px;
+  }
+  p#event-text-text{
+    font-size: 11px;
   }
 }
 .navbar-collapse{
