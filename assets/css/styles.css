@@ -2890,7 +2890,8 @@ p#event-text-text {
     border-radius: 2%;
   }
   .publ h1{
-    font-size: 85px!important;
+    font-size: 38px!important;
+    line-height: 56px !important;
   }
 }
 .navbar-collapse{
