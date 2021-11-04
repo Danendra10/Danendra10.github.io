@@ -2876,9 +2876,12 @@ p#event-text-text {
   }
   .achivement-top-content p{
     font-size: 18px;
+    line-height: 42px;
+
   }
   .achivement-top-content h1{
     font-size: 50px;
+    letter-spacing: 0px;
   }
   .timeline .date-info{
     position: absolute;
@@ -2923,9 +2926,9 @@ p#event-text-text {
   .iris-news-head > .left{
     width: 15%;
   }
-  .left-content{
-    wiodth: 375px!important;
-  }
+  /* .left-content{
+    width: 375px!important;
+  } */
   .robo{
     left: 49.24%;
     right: -3.72%;
@@ -2947,11 +2950,29 @@ p#event-text-text {
     bottom: -50.25%;
     width: 341px;
   }
-  #about-us-section{
-    
-  }
   .mt-70{
     margin-top: 70%!important;
+  }
+  .achivement-top-content{
+    padding: auto 5px;
+  }
+  .achivement{
+    margin-top: 17%!important;
+  }
+  .transform-2019{
+    top: 47px;
+    left: -12px;
+    position: absolute;
+  }
+  .papers{
+    margin: auto!important;
+  }
+  .download-button{
+    padding-left: 120px !important;;
+  }
+  .text-center h2{
+    font-size: 1.5em;
+    font-weight: 100px!important;
   }
 }
 .navbar-collapse{
