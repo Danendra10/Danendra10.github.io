@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="assets/img/Logo/icon-iris.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/styles/style.scss" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <!-- Font Awesome -->
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+    <script src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <title>IRIS ITS || Home</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/Logo/navbar.png" style="margin-left: 50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 profile-menu navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link currentPage" aria-current="page" href="./index_.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./Publications.html">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Achivements.html" role="button">
+                            Achivements
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdownCompetitions"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Competitions
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdownCompetitions">
+                            <li>
+                                <a class="dropdown-item" target="_blank"
+                                    href="https://kontesrobotindonesia.id/index.html">KRI</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" target="_blank" href="https://www.robocup.org/">Robocup</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" target="_blank" href="https://firaworldcup.org/">FIRA Roboworld
+                                    Cup</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            History
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="./ComingSoon.html">Team</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./ComingSoon.html">Robots</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Find Out
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="./ComingSoon.html">IRIS Edu</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./ComingSoon.html">IRIS News</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./OurTeam.html">Our Team</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./ContactUs.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+     <!-- Tampilan awal Home Pagee -->
+     <div class="container-fluid">
+        <div class="row top-content">
+            <div class="col-lg-6 col-md-12 d-flex align-items-center">
+                <img src="assets/img/Home/left.png" alt="Robot" class="Iris-Robot" />
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex align-items-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/b6oTI_k6TFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="icons">
+                    <img src="assets/img/Home/Vector-right.png" alt="" class="vectorHome" />
+                    <div class="socmed d-flex">
+                        <a href="" class="icons-padding">
+                            <img src="assets/img/Home/ig.png" alt="" class="igHome" />
+                        </a>
+                        <a href="" class="icons-padding">
+                            <img src="assets/img/Home/gm.png" alt="" class="gmHome" />
+                        </a>
+                        <a href="" class="icons-padding">
+                            <img src="assets/img/Home/in.png" alt="" class="inHome" />
+                        </a>
+                        <a href="" class="icons-padding">
+                            <img src="assets/img/Home/yt.png" alt="" class="ytHome" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Team -->
+    <div class="container-fluid aboutTeam">
+        <div class="title">
+            <h6 class="aboutTeamTitle">About Team</h6>
+        </div>
+
+        <div class="content mt-5">
+            <div class="row justify-content-between mx-5">
+                <div class="col-lg-6 col-md-12 d-flex align-items-start">
+                    <p>
+                        ITS' Robot with Intellegence System, or known as IRIS is Institut Teknologi Sepuluh Nopember (ITS) Robotic team focusing on autonomous soccer playing robots. Since it’s development in 2014, IRIS ITS has competed in the soccer robotic league since 2017
+                        and managed to get a lot of achievements. The team consist of students of Institut Teknologi Sepuluh Nopember Surabaya. To build a great team and a robot that is capable of playing football, the team is divided into 4 divisions
+                        which are mechanical division, electrical division, programming division, and official division.
+                    </p>
+                </div>
+                <div class="col-lg-5 col-md-12 d-flex right-content">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>What is</h1>
+                            <h1>IRIS?</h1>
+                        </div>
+                        <div class="col-12 ">
+                            <div class="robot">
+                                <img src="assets/img/Home/About Team/right-content.png" alt="" class="right-robo whatIsIris d-md-none d-sm-none" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Iris News -->
+    <div class="container-fluid irisNews">
+        <div class="title d-flex justify-content-end">
+            <h6 class="irisNewsTitle">IRIS News</h6>
+        </div>
+        <div class="wrapper">
+            <div class="carousel owl-carousel">
+                <div class="card card-1">
+                    <a href="./OurTeam.html#electrical">
+                        <div class="cards p-0">
+                            <div class="cards-image"><img src="assets/img/Home/News/3.png" alt="..." class="toSpinOnScroll" /></div>
+                            <div class="cards-content d-flex flex-column align-items-center">
+                                <h4 class="pt-2">RoboCup Asia Pacific</h4>
+                                <h5 style="color: #000">Our team got the second place on Video Challenge.</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card card-2">
+                    <a href="./OurTeam.html#electrical">
+                        <div class="cards p-0">
+                            <div class="cards-image"><img src="assets/img/Home/News/3.png" alt="..." class="toSpinOnScroll" /></div>
+                            <div class="cards-content d-flex flex-column align-items-center">
+                                <h4 class="pt-2">RoboCup Asia Pacific</h4>
+                                <h5 style="color: #000">Our team got the second place on Video Challenge.</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card card-3">
+                    <a href="./OurTeam.html#electrical">
+                        <div class="cards p-0">
+                            <div class="cards-image"><img src="assets/img/Home/News/3.png" alt="..." class="toSpinOnScroll" /></div>
+                            <div class="cards-content d-flex flex-column align-items-center">
+                                <h4 class="pt-2">RoboCup Asia Pacific</h4>
+                                <h5 style="color: #000">Our team got the second place on Video Challenge.</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card card-4">
+                    <a href="./OurTeam.html#electrical">
+                        <div class="cards p-0">
+                            <div class="cards-image"><img src="assets/img/Home/News/3.png" alt="..." class="toSpinOnScroll" /></div>
+                            <div class="cards-content d-flex flex-column align-items-center">
+                                <h4 class="pt-2">RoboCup Asia Pacific</h4>
+                                <h5 style="color: #000">Our team got the second place on Video Challenge.</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Whats on iris -->
+    <div class="container-fluid whatsOnIris">
+        <div class="row">
+            <div class="col-lg-7 col-sm 12 irisOn d-flex align-items-center">
+                <h2>What IRIS on right now?</h2>
+                <h2 class="special d-sm-none d-md-none d-lg-block">IRIS on</h2>
+            </div>
+            <div class="col-lg-5 col-sm-12 irisOn">
+                <p id="event-text-text">
+                    Kontes Robot Indonesia (KRI) adalah kegiatan kompetisi rancang bangun dan rekayasa dalam bidang robotika tahunan bagi mahasiswa dari perguruan tinggi negeri dan swasta di Tanah Air yang diselenggarakan oleh Pusat Prestasi Nasional Kementerian Pendidikan,
+                    Kebudayaan, Riset, dan Teknologi. Tim IRIS ITS sendiri akan bertanding dalam divisi KRSBI Beroda. KRI 2021 diadakan secara pertahap yakni seleksi proposal dan yang lolos akan maju seleksi di tingkat wilayah setelah itu masuk ke KRI
+                    tingkat nasional. Tahun ini IRIS berhasil meraih gelar juara peringkat 2 pada KRSBI Beroda dan siap berlaga dalam KRI 2021 tingkat nasional pada bulan oktober ini. Info selengkapnya dapat mengunjungi Instagram @iris.itsrobotic.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Divisions of IRIS -->
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-end">
+                <h1 class="divisionsofiris">DIVISIONS OF IRIS</h1>
+            </div>
+            <div class="col-12 d-flex justify-content-end">
+                <img src="assets/img/team/divs.png" alt="" />
+            </div>
+        </div>
+
+        <div class="container-fluid divisions" style="background-color: #f7f6f6">
+            <div class="row justify-content-around py-5" style="background-color: #f7f6f6">
+                <div class="col-lg-2 col-sm-6 revealtoRight justify-content-center align-items-center d-flex" style="margin-bottom: 10px">
+                    <a href="./OurTeam.html#electrical">
+                        <div class="cards p-0">
+                            <div class="cards-image"><img src="assets/img/divs/Electrical.png" alt="..." class="toSpinOnScroll" /></div>
+                            <div class="cards-content d-flex flex-column align-items-center">
+                                <h4 class="pt-2">Electrical</h4>
+                                <h5 style="color: #000">The Electrical Division is responsible to determine and take control on the electrical system of our robots.</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6 revealtoRight justify-content-center align-items-center d-flex" style="margin-bottom: 10px">
+                    <a href="./OurTeam.html#mechanical">
+                        <div class="cards p-0">
+                            <div class="cards-image"><img src="assets/img/divs/Mechanical.png" alt="..." class="toSpinOnScroll" /></div>
+                            <div class="cards-content d-flex flex-column align-items-center">
+                                <h4 class="pt-2">Mechanical</h4>
+                                <h5 style="color: #000">The mechanic division is responsible on manufacturing robots, designing robot’s, etc.</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6 revealtoLeft justify-content-center align-items-center d-flex" style="margin-bottom: 10px">
+                    <a href="./OurTeam.html#programming">
+                        <div class="cards p-0">
+                            <div class="cards-image"><img src="assets/img/divs/Programming.png" alt="..." class="toFadeOnScroll" /></div>
+                            <div class="cards-content d-flex flex-column align-items-center">
+                                <h4 class="pt-2">Programming</h4>
+                                <h5 style="color: #000">The Programming Division is responsible to make a perfect robots.</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-6 revealtoLeft justify-content-center align-items-center d-flex" style="margin-bottom: 10px">
+                    <a href="./OurTeam.html#official">
+                        <div class="cards p-0">
+                            <div class="cards-image"><img src="assets/img/divs/Official.png" alt="..." class="toSpinOnScroll" /></div>
+                            <div class="cards-content d-flex flex-column align-items-center">
+                                <h4 class="pt-2">Official</h4>
+                                <h5 style="color: #000">The official division do all administrative task.</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="contact-us mt-4">
+        <div class="container-fluid text-center cta-area2 margin-top">
+            <p class="p-5">For Further Information</p>
+            <h2>You Can Contact Us On</h2>
+            <a href="./contact-us.html" class="button strip mt-4 mb-4">Click Here!</a>
+        </div>
+    </div>
+
+    <!-- Contact Us Map -->
+    <section class="section-margin">
+        <div class="container-fluid" style="background: rgba(109, 220, 207, 1)">
+            <div class="row p-5">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column align-self-center toRightOnScroll text-md-center text-sm-center">
+                    <h1 style="color: #fff" class="contact-us-footer-title">Contact Us!</h1>
+                    <h4 class="contact-us-footer-content">Laboratorium Workshop, Lantai II, Pusat Robotika ITS Jl. Teknik Kimia, Kampus ITS Sukolilo, Surabaya, 60111</h4>
+                    <h4 class="contact-us-footer-content">+62 822-3010-4565</h4>
+                    <h4 class="contact-us-footer-content">iris@its.ac.id</h4>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 toLeftOnScroll">
+                    <div class="d-none d-sm-block mb-5 pb-4">
+                        <div id="map" style="height: 480px"></div>
+                        <script>
+                            function initMap() {
+                                var uluru = {
+                                    lat: -7.277379,
+                                    lng: 112.798304,
+                                };
+                                var map = new google.maps.Map(document.getElementById("map"), {
+                                    zoom: 17,
+                                    center: uluru,
+                                });
+                                var contentString = "<div>" + "<div>" + "</div>" + "<h5>Sekretariat Robotika ITS</h5>" + '<div style="font-size:16px">' + "<p>Jl. Teknik Kimia, Kampus ITS<br>" + "Sukolilo, Surabaya</p>" + "</div>" + "</div>";
+
+                                var infowindow = new google.maps.InfoWindow({
+                                    content: contentString,
+                                });
+
+                                var marker = new google.maps.Marker({
+                                    position: uluru,
+                                    map: map,
+                                    title: "Robotika ITS",
+                                });
+                                infowindow.open(map, marker);
+                                marker.addListener("click", function() {
+                                    infowindow.open(map, marker);
+                                });
+                            }
+                        </script>
+                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAc6pcTINhSJDXqrJ_09vrYkTZTKX0_y5c&amp;callback=initMap"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer style="background: rgba(232, 225, 240, 1)" class="py-4">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-center align-items-center">
+                <p style="font-family: Montserrat; font-style: normal; font-weight: normal; font-size: 10.613px; line-height: 13px; color: #333333">
+                    Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    IRIS ITS
+                </p>
+            </div>
+            <div class="col-6 d-flex">
+                <a href="https://www.instagram.com/iris.itsrobotic/"><img src="assets/img/footer/ig.png" alt="" class="mx-1" /></a>
+                <a href="mailto:iris.krsbi@gmail.com"><img src="assets/img/footer/gmail.png" alt="" class="mx-1" /></a>
+                <a href="https://www.linkedin.com/company/iris-its/mycompany/"><img src="assets/img/footer/in.png" alt="" class="mx-1" /></a>
+                <a href="https://www.youtube.com/channel/UCOmBeTiru1hFtOiGXneI_Gw"><img src="assets/img/footer/yt.png" alt="" class="mx-1" /></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        $(".carousel").owlCarousel({
+            margin: 10,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false,
+                },
+                600: {
+                    items: 2,
+                    nav: false,
+                },
+                1000: {
+                    items: 3,
+                    nav: false,
+                },
+            },
+        });
+    </script>
+    <script src="/node_modules/jquery/src/jquery.js"></script>
+    <script src="/node_modules/tilt.js/src/tilt.jquery.js"></script>
+</body>
+
+</html>
